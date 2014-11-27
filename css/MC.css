@@ -1,0 +1,95 @@
+/*
+ * General properties
+ */
+html, body {
+    background-color: #ffffff;
+    font-family: 'Static';
+    margin: 0px;
+    height: 100%;
+}
+.hide {
+    display: none;
+}
+
+/*
+ * Header
+ */
+#header_wrapper{
+    width: 1024px;
+    height: 166px;
+    margin: 0 auto;
+}
+#logo{
+    float:left;
+    height: 113px;
+    width: 180px;
+    background-image: url(../Images/RecursosGraficos.png);
+    background-repeat: no-repeat;
+    margin-top: 53px;
+}
+#menu{
+    /*margin-left: 350px;*/
+    float:right;
+    margin-top: 118px;
+}
+#menu > div{
+    width: 165px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 2px #ADC3D0 solid;
+    display: table-cell;
+    color: #396e8e;
+    cursor: pointer;
+}
+#menu > div:hover{
+    font-weight: bold;
+
+}
+#menu div:last-child{
+    border-right: none;
+}
+
+/*
+ * Main
+ */
+#main{
+    width: 100%;
+    height: 577px;
+    background-color: #b8c3c7;
+}
+#main_wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+#video-viewport {
+    overflow: hidden;
+    z-index:-1; /* for accessing the video by click */
+}
+
+/*
+ * Footer
+ */
+footer{
+    width: 1024px;
+    margin: 15px auto auto;
+    color: #396e8e;
+}
+footer > div{
+    cursor: pointer;
+}
+#languages{
+    float: left;
+}
+#languages > div{
+    display: inline-block;
+    margin-right: 34px;
+    color: #ADC3D0;
+}
+#languages > div:hover{
+    color: #396e8e;
+}
+#legal{
+    float: right;
+}
+
