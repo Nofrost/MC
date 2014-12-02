@@ -2,4 +2,4 @@
 $page = 'index';
 $page_title = 'MC CONSULTA AUDITIVA';
 
-include 'skeleton.php';
+include 'skeleton_index.php';

@@ -10,6 +10,7 @@
 <link type="text/css" rel="stylesheet" href="css/MC.css"/>
 
 <script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/main.js"></script>
 <!--
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

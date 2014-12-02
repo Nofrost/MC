@@ -2,101 +2,174 @@
  * General properties
  */
 html, body {
-    background-color: #ffffff;
-    font-family: 'Static';
-    margin: 0px;
-    height: 100%;
+	background-color: #ffffff;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	margin: 0px;
+	height: 100%;
 }
 .hide {
-    display: none;
+	display: none;
 }
 
 /*
  * Header
  */
 #header_wrapper{
-    width: 1024px;
-    height: 166px;
-    margin: 0 auto;
+	width: 1024px;
+	height: 166px;
+	margin: 0 auto;
 }
 #logo{
-    float:left;
-    height: 113px;
-    width: 180px;
-    background-image: url(../Images/RecursosGraficos.png);
-    background-repeat: no-repeat;
-    margin-top: 53px;
+	float:left;
+	height: 115px;
+	width: 198px;
+	background-image: url(../Images/logo_MC.svg);
+	background-repeat: no-repeat;
+	margin-top: 36px;
+	cursor:pointer;
 }
 nav{
-    /*margin-left: 350px;*/
-    float:right;
-    margin-top: 118px;
+	/*margin-left: 350px;*/
+	float:right;
+	margin-top: 131px;
 }
 nav > div{
-    width: 165px;
-    height: 48px;
-    text-align: center;
-    vertical-align: middle;
-    border-right: 2px #ADC3D0 solid;
-    display: table-cell;
-    color: #396e8e;
-    cursor: pointer;
+	width: 165px;
+	height: 35px;
+	text-align: center;
+	vertical-align: top;
+	border-right: 2px rgba(184,195,199, 0.6) solid;
+	display: table-cell;
+	color: #396e8e;
+	cursor: pointer;
 }
-nav > div:hover{
-    font-weight: bold;
+nav > div:hover,
+nav > div:active{
+	font-weight: bold;
 
 }
 nav div:last-child{
-    border-right: none;
+	border-right: none;
 }
+nav > div.active{
+	font-weight: bold;
+}
+
+/*
+ * Index
+ */
+#Logo_index{
+	background-image: url(../Images/Logo_MC%20index.svg);
+	background-repeat: no-repeat;
+	margin: 238px auto 91px auto;
+	height: 193px;
+	width: 341px;
+}
+#Languages_index{
+	margin: 0px auto;
+	width: 760px;
+}
+#Languages_index > div{
+	height: 32px;
+	width: 190px;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 2px rgba(184,195,199, 0.6) solid;
+	display: table-cell;
+	color: #396e8e;
+	cursor: pointer;
+}
+#Languages_index > div > a{
+	text-decoration: none;
+	color: #396e8e;
+}
+#Languages_index > div:hover{
+	font-weight: bold;
+}
+#Languages_index > div:last-child{
+	border-right: none;
+}
+
+
+
 
 /*
  * Main
  */
 #main{
-    width: 100%;
-    height: 577px;
-    background-color: #ffffff;
+	width: 100%;
+	height: 577px;
+	background-color: rgba(184,195,199, 0.6);
 }
 #main_wrapper{
-    margin: 0 auto;
-    width: 1024px;
-    height: 577px;
+	margin: 0 auto;
+	width: 1024px;
+	height: 577px;
 }
-#main > a {
-    height: 577px;
-    margin-top:166px;
-}
+/*#main > a {
+	height: 577px;
+	margin-top:166px;
+}*/
 #video-viewport {
-    overflow: hidden;
-    z-index:-1000; /* for accessing the video by click */
+	overflow: hidden;
+	z-index:-1000; /* for accessing the video by click */
+	overflow: hidden;
+	z-index:-1000; /* for accessing the video by click */
 }
+#all_services{
+	height: 136px;
+}
+#all_services >.circle{
+	display:table-cell;
+	border-radius: 50%;
+	background-color: #ffffff;
+	height: 136px;
+	width: 136px;
+	margin-right: 40px;
+	vertical-align: middle;
+	text-align: center;
+	/*position: absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	border-radius: 50%;
+	background-color: #ffffff;
+	text-align: center;*/
+}
+#all_services > .circle:before{
+	height: 100%;
+	display: inline-block;
+}
+
 
 /*
  * Footer
  */
 footer{
-    width: 1024px;
-    margin: 15px auto auto;
-    color: #396e8e;
-    z-index:1;
+	width: 1024px;
+	margin: 14px auto auto;
+	color: #ADC3D0;
+	z-index:1;
 }
 footer > div{
-    cursor: pointer;
+	cursor: pointer;
 }
 #languages{
-    float: left;
+	float: left;
 }
 #languages > div{
-    display: inline-block;
-    margin-right: 34px;
-    color: #ADC3D0;
+	display: inline-block;
+	margin-right: 34px;
 }
-#languages > div:hover{
-    color: #396e8e;
+#languages > div:hover, #languages > div:active {
+	color: #396e8e;
+}
+.activeShit{
+	color: #396e8e;
 }
 #legal{
-    float: right;
+	float: right;
 }
 
 
@@ -113,8 +186,8 @@ The width can be either fixed in px or flexible in %.
 Position must be relative!
 */
 .jcarousel {
-    position: relative;
-    overflow: hidden;
+	position: relative;
+	overflow: hidden;
 }
 
 /*
@@ -123,13 +196,13 @@ You must ensure that the position is relative or absolute and
 that the width is big enough to contain all items.
 */
 .jcarousel ul {
-    width: 20000em;
-    position: relative;
+	width: 20000em;
+	position: relative;
 
-    /* Optional, required in this case since it's a <ul> element */
-    list-style: none;
-    margin: 0;
-    padding: 0;
+	/* Optional, required in this case since it's a <ul> element */
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /*
@@ -137,6 +210,6 @@ These are the item elements. jCarousel works best, if the items
 have a fixed width and height (but it's not required).
 */
 .jcarousel li {
-    /* Required only for block elements like <li>'s */
-    float: left;
+	/* Required only for block elements like <li>'s */
+	float: left;
 }
