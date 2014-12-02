@@ -60,10 +60,25 @@ $(document).ready(function() {
 		$("#services,#objectives,#test").removeClass("active");
 	});
 
+	/*
+	Info:
+		http://sorgalla.com/jcarousel/docs/reference/configuration.html
+		http://sorgalla.com/jcarousel/docs/reference/usage.html
+	*/
+	$('.jcarousel').jcarousel({
+		//Configuration
+		wrap: 'both',
+		transitions: true,
+		animation: 1000
+	});
+	$("#video-player").bind('ended', function () { //Al acabar el video
+		//$('.jcarousel').jcarousel('scroll', '+=1'); //Usage
+		//Sino també es pot canviar de pàgina amb això:
+//		$('.jcarousel').jcarousel('scroll', 0);
+	});
 
 
-
-	loadImages();
+//	loadImages();
 
 /*	Code from bookandlook
 	window.routing = new window.Routing();

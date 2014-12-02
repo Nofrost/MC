@@ -4,7 +4,7 @@
 	<ul>
 		<li id="page1">
 			<div id="video-viewport">
-				<video autoplay controls preload width="1024" height="auto" scale="tofit" id="video-player">
+				<video autoplay preload width="1024" height="auto" scale="tofit" id="video-player">
 					<source src="videos/MC_spot-1_v3.ogg" type="video/ogg" />
 					<source src="videos/MC_spot-1_v3.mp4" type="video/mp4" />
 				</video>
@@ -15,29 +15,6 @@
 		</li>
 	</ul>
 </div>
-
-<?php /*
-Info:
-http://sorgalla.com/jcarousel/docs/reference/configuration.html
-http://sorgalla.com/jcarousel/docs/reference/usage.html
-*/ ?>
-<script type="text/javascript">
-$(function () {
-	$('.jcarousel').jcarousel({
-		//Configuration
-		wrap: 'both',
-		transitions: true,
-		animation: 1000
-	});
-
-	$("#video-player").bind('ended', function () { //Al acabar el video
-		$('.jcarousel').jcarousel('scroll', '+=1'); //Usage
-		//Sino també es pot canviar de pàgina amb això:
-//		$('.jcarousel').jcarousel('scroll', 0);
-	});
-});
-</script>
-
 
 <?php /* <div id="main">
 <div id="main_wrapper">

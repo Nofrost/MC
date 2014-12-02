@@ -69,7 +69,7 @@ nav > div.active{
 	margin: 0px auto;
 	width: 760px;
 }
-#Languages_index > div{
+#Languages_index > a{
 	height: 32px;
 	width: 190px;
 	text-align: center;
@@ -78,15 +78,13 @@ nav > div.active{
 	display: table-cell;
 	color: #396e8e;
 	cursor: pointer;
-}
-#Languages_index > div > a{
 	text-decoration: none;
 	color: #396e8e;
 }
-#Languages_index > div:hover{
+#Languages_index > a:hover{
 	font-weight: bold;
 }
-#Languages_index > div:last-child{
+#Languages_index > a:last-child{
 	border-right: none;
 }
 
@@ -102,9 +100,10 @@ nav > div.active{
 	background-color: rgba(184,195,199, 0.6);
 }
 #main_wrapper{
-	margin: 0 auto;
+/*	margin: 0 auto;
 	width: 1024px;
 	height: 577px;
+	width: 70%;*/
 }
 /*#main > a {
 	height: 577px;
