@@ -33,7 +33,7 @@ nav{
 	float:right;
 	margin-top: 131px;
 }
-nav > div{
+nav > a{
 	width: 165px;
 	height: 35px;
 	text-align: center;
@@ -42,16 +42,17 @@ nav > div{
 	display: table-cell;
 	color: #396e8e;
 	cursor: pointer;
+	text-decoration: none;
 }
-nav > div:hover,
-nav > div:active{
+nav > a:hover,
+nav > a:active{
 	font-weight: bold;
 
 }
-nav div:last-child{
+nav a:last-child{
 	border-right: none;
 }
-nav > div.active{
+nav > a.active{
 	font-weight: bold;
 }
 
@@ -115,10 +116,37 @@ nav > div.active{
 	overflow: hidden;
 	z-index:-1000; /* for accessing the video by click */
 }
-#all_services{
-	height: 136px;
+#content_main_services{
+	background-image: url("../Images/web-2.jpg");
+	height:577px;
+	width: 80%;
+	margin: 0 auto;
 }
-#all_services >.circle{
+#all_services{
+	height: 170px;
+	width: 100%;
+	background-color: rgba(57,110,142,0.8);
+	top: 407px;
+	position: relative;
+}
+#services_wrapper{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+#services_wrapper > svg{
+	margin: 15px 40px 15px 0;
+}
+#services_wrapper > svg:first-child{
+	margin-left: 38px;
+}
+#services_wrapper > svg >text.active{
+	visibility: visible;
+}
+.hidden{
+	visibility: hidden;
+}
+/*#all_services >.circle{
 	display:table-cell;
 	border-radius: 50%;
 	background-color: #ffffff;
@@ -135,42 +163,40 @@ nav > div.active{
 	border-radius: 50%;
 	background-color: #ffffff;
 	text-align: center;*/
-}
+}*/*/
 #all_services > .circle:before{
 	height: 100%;
 	display: inline-block;
-}
-
+}*/
 
 /*
  * Footer
  */
-footer{
-	width: 1024px;
-	margin: 14px auto auto;
-	color: #ADC3D0;
-	z-index:1;
-}
-footer > div{
+
+footer > a{
 	cursor: pointer;
 }
 #languages{
 	float: left;
 }
-#languages > div{
+#languages > a{
 	display: inline-block;
 	margin-right: 34px;
 }
-#languages > div:hover, #languages > div:active {
-	color: #396e8e;
-}
-.activeShit{
+#languages > a:hover, #languages > a.active{
 	color: #396e8e;
 }
 #legal{
 	float: right;
 }
-
+#legal, #languages > a{
+	text-decoration: none;
+	color: #ADC3D0;
+}
+footer{
+	width: 1024px;
+	margin: 14px auto auto;
+}
 
 
 

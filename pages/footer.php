@@ -1,4 +1,4 @@
-<?php if(!isset($page)) { header('Location: home_page.php');die('Redirect a home_page'); } ?>
+<?php if(!isset($page)) { header('Location: home.php');die('Redirect a home'); } ?>
 
 <footer>
 	<div id="languages">
@@ -7,5 +7,11 @@
 		<a id="button_ENG" href="home.php?page=<?php echo $page;?>&lang=en" <?php if($lang == 'en') echo 'class="active"'; ?>>ENG</a>
 		<a id="button_IT" href="home.php?page=<?php echo $page;?>&lang=it" <?php if($lang == 'it') echo 'class="active"'; ?>>IT</a>
 	</div>
-	<div id="legal">Aviso Legal</div>
+	<a id="legal" href="">
+		<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Av&iacute;s Legal</span>
+		<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Aviso Legal</span>
+		<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Disclaimer</span>
+		<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Disconoscimento</span>
+	</a>
 </footer>
+

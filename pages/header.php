@@ -7,17 +7,27 @@
 			<a id="objectives" href="home.php?page=Objectives&lang=<?php echo $lang;?>">
 				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Qui som</span>
 				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Qui&eacute;nes somos</span>
-				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Who are we</span>
-				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Que cosa fazemos</span>
+				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Who we are</span>
+				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Chi siamo</span>
 			</a>
 			<a id="services" href="home.php?page=Services&lang=<?php echo $lang;?>">
 				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Serveis</span>
 				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Servicios</span>
 				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Services</span>
-				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Servizio</span>
+				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Servizi</span>
 			</a>
-			<div id="test">Test Auditivo</div>
-			<div id="contact">Contacto</div>
+			<a id="test" href="home.php?page=Test&lang=<?php echo $lang;?>">
+				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Test auditiu</span>
+				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Test auditivo</span>
+				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Hearing test</span>
+				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Test dell&#39;udito</span>
+			</a>
+			<a id="contact" href="home.php?page=Contact&lang=<?php echo $lang;?>">
+				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Contacte</span>
+				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Contacto</span>
+				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Contact</span>
+				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Contatto</span>
+			</a>
 		</nav>
 	</div>
 </header>
