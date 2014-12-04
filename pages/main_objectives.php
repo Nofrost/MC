@@ -11,7 +11,7 @@
 		Aquest &eacute;s el nostre segell i garantia de professionalitat.</p>
 	</span>
 
-	<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>"><p><span>QUIENES SOMOS:</span><br>
+	<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>"><p><span>QUI&Eacute;NES SOMOS:</span><br>
 		Somos un equipo de especialistas titulados en audiolog&iacute;a con experiencia en el sector de m&aacute;s de 30 a&ntilde;os.<br>
 		Comprometidos con nuestra sociedad y la salud de la misma, juntos trabajamos para facilitar y mejorar una cuesti&oacute;n cr&iacute;tica y a la vez fundamental en el d&iacute;a a d&iacute;a de nuestros pacientes: la audici&oacute;n.</p>
 		<p><span>PRINCIPIOS Y VALORES:</span><br>
@@ -24,7 +24,7 @@
 		Siamo specialisti laureati in tecniche protesiche con piu&#39; di 30 anni di esperienza Nel settore.<br>
 		Compromessi con la nostra societa&#39; e la sua salute, lavoriamo insieme per evitare situazioni scomode e allo stesso tempo fondamentali  al giorno d&#39;oggi dei nostri pazienti: sentire bene.<br></p>
 		<p><span>PRINCIPI E VALORI:</span><br>
-		Crediamo nei poteri della tecnologia come mezzo e soluzione a tutti tipi di difficolta&#39; auditive crediamo nella passione come motore per raggiungere obbiettivi e crescere insieme hai nostri pazienti, ma sopratutto crediamo nella professionalita&#39;e il contatto come chiave di sucesso per offrire sempre il miglior servizio con massima qualita&#39;.<br>
-		Cuesto e&#39; il nostro símbolo di garanzia e professionalita&#39;. </p>
+		Crediamo nei poteri della tecnologia come mezzo e soluzione a tutti tipi di difficolta&#39; auditive crediamo nella passione come motore per raggiungere obbiettivi e crescere insieme ai nostri pazienti, ma sopratutto crediamo nella professionalita&#39;e il contatto come chiave di sucesso per offrire sempre il miglior servizio con massima qualita&#39;.<br>
+		Questo e&#39; il nostro símbolo di garanzia e professionalita&#39;. </p>
 	</span>
 </div>

@@ -72,7 +72,7 @@ $(document).ready(function() {
 		animation: 1000
 	});
 	$("#video-player").bind('ended', function () { //Al acabar el video
-		//$('.jcarousel').jcarousel('scroll', '+=1'); //Usage
+		$('.jcarousel').jcarousel('scroll', '+=1'); //Usage
 		//Sino també es pot canviar de pàgina amb això:
 //		$('.jcarousel').jcarousel('scroll', 0);
 	});

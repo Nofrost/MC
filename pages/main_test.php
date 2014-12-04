@@ -2,7 +2,7 @@
 <div id="title_test">
 	<div>
 		<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Comprovi l&#39;estat de la seva audici&oacute;</span>
-		<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Compruebe el estadado de su audici&oacute;n</span>
+		<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Compruebe el estado de su audici&oacute;n</span>
 		<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Check the status of your hearing</span>
 		<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Controllare lo stato del vostro udito</span>
 	</div>
