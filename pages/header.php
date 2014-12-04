@@ -20,13 +20,13 @@
 				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Test auditiu</span>
 				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Test auditivo</span>
 				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Hearing test</span>
-				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Test dell&#39;udito</span>
+				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Test auditivo</span>
 			</a>
 			<a id="contact" href="home.php?page=Contact&lang=<?php echo $lang;?>">
 				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Contacte</span>
 				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Contacto</span>
 				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Contact</span>
-				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Contatto</span>
+				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Come contattarci</span>
 			</a>
 		</nav>
 	</div>

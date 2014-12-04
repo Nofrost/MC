@@ -4,14 +4,14 @@
 	<ul>
 		<li id="page1">
 			<div id="video-viewport">
-				<video autoplay preload width="1024" height="auto" scale="tofit" id="video-player">
+				<video autoplay preload width="1024" height="auto" scale="tofit" id="video-player" controls muted>
 					<source src="videos/MC_spot-1_v3.ogg" type="video/ogg" />
 					<source src="videos/MC_spot-1_v3.mp4" type="video/mp4" />
 				</video>
 			</div>
 		</li>
 		<li id="page2">
-			<img src="Images/web-2.jpg" class="image-responsive">
+			<img src="Images/2faces.png">
 		</li>
 	</ul>
 </div>

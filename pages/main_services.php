@@ -1,4 +1,9 @@
 <?php if(!isset($page)) { header( 'Location: home_page.php');die( 'Redirect a home_page'); }?>
+<div id="video-viewport">
+			<video autoplay preload width="1423" height="auto" scale="tofit" id="video-player" controls muted>
+					<source src="videos/MC_spot-3_v3.ogg" type="video/ogg" />
+			</video>
+</div>
 <div id="all_services">
 	<div id="services_wrapper">
 		<svg height="140" width="140">
@@ -15,9 +20,9 @@
 				<tspan x="31" y="75">audiological</tspan>
 				<tspan x="52" y="95">study</tspan>
 			</text>
-			<text x="51" y="55" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Studio
-				<tspan x="33" y="75">audiologica</tspan>
-				<tspan x="52" y="95">gratis</tspan>
+			<text x="47" y="55" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Esame
+				<tspan x="33" y="75">audiologico</tspan>
+				<tspan x="44" y="95">gratuito</tspan>
 			</text>
 		</svg>
 
@@ -34,16 +39,16 @@
 			<text x="34" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>New digital
 				<tspan x="31" y="85">hearing aids</tspan>
 			</text>
-			<text x="50" y="55" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Nuovi
-				<tspan x="8" y="75">apparecchi acustici</tspan>
+			<text x="49" y="55" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Nuovi
+				<tspan x="32" y="75">apparecchi</tspan>
 				<tspan x="47" y="95">digitali</tspan>
 			</text>
 		</svg>
 
 		<svg height="140" width="140">
 			<circle cx="70" cy="70" r="70" fill="white" />
-			<text x="33" y="65" style="fill:#396e8e" <?php if($lang != 'cat') echo 'visibility="hidden"'; ?>>Garantia
-				<tspan x="35" y="85">d&#39;adaptaci&oacute;</tspan>
+			<text x="41" y="65" style="fill:#396e8e" <?php if($lang != 'cat') echo 'visibility="hidden"'; ?>>Garantia
+				<tspan x="32" y="85">d&#39;adaptaci&oacute;</tspan>
 			</text>
 			<text x="33" y="65" style="fill:#396e8e" <?php if($lang != 'es') echo 'visibility="hidden"'; ?>>Garant&iacute;a de
 				<tspan x="35" y="85">adaptaci&oacute;n</tspan>
@@ -51,7 +56,7 @@
 			<text x="31" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Gurarantee
 				<tspan x="33" y="85">adaptation</tspan>
 			</text>
-			<text x="17" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Adattamento di
+			<text x="17" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Applicazioni con
 				<tspan x="43" y="85">garanzia</tspan>
 			</text>
 		</svg>
@@ -68,7 +73,7 @@
 				<tspan x="38" y="85">financing</tspan>
 			</text>
 			<text x="23" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Finanziamenti
-				<tspan x="37" y="85">su misura</tspan>
+				<tspan x="24" y="85">personalizzati</tspan>
 			</text>
 		</svg>
 
@@ -84,7 +89,7 @@
 				<tspan x="55" y="85">care</tspan>
 			</text>
 			<text x="35" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Assistenza
-				<tspan x="33" y="85">domiciliare</tspan>
+				<tspan x="40" y="85">domicilio</tspan>
 			</text>
 		</svg>
 
@@ -99,8 +104,8 @@
 			<text x="25" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Batteries and
 				<tspan x="32" y="85">accessories</tspan>
 			</text>
-			<text x="36" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Batterie e
-				<tspan x="38" y="85">accessori</tspan>
+			<text x="50" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Pile e
+				<tspan x="40" y="85">accessori</tspan>
 			</text>
 		</svg>
 
