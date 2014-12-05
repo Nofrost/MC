@@ -89,7 +89,7 @@
 				<tspan x="55" y="85">care</tspan>
 			</text>
 			<text x="35" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Assistenza
-				<tspan x="40" y="85">domicilio</tspan>
+				<tspan x="34" y="85">a domicilio</tspan>
 			</text>
 		</svg>
 

@@ -14,6 +14,19 @@ html, body {
 .hidden{
 	visibility: hidden;
 }
+#content_main_services,
+#content_main_presentation,
+#content_main_objectives,
+#content_main_contact,
+#content_main_contact{
+	height:577px;
+	width: 1423px;
+	margin:0 auto;
+}
+#video-viewport {
+	overflow: hidden;
+	z-index:-1000; /* for accessing the video by click */
+}
 /*
  * Header
  */
@@ -48,15 +61,13 @@ nav > a{
 	text-decoration: none;
 }
 nav > a:hover,
-nav > a:active{
+nav > a:active,
+a.active
+{
 	font-weight: bold;
-
 }
 nav a:last-child{
 	border-right: none;
-}
-nav > a.active{
-	font-weight: bold;
 }
 
 /*
@@ -99,25 +110,27 @@ nav > a.active{
 	height: 577px;
 	background-color: rgba(184,195,199, 0.2);
 }
-#main_wrapper{
+/*#main_wrapper{
 /*	margin: 0 auto;
 	width: 1024px;
 	height: 577px;
-	width: 70%;*/
-}
+	width: 70%;
+}*/
 /*
  * Main presentation
  */
-#video-viewport {
-	overflow: hidden;
-	z-index:-1000; /* for accessing the video by click */
+#slogan{
+	width: 100%;
+	height: 82px;
+	text-align: center;
+	background-color: rgba(57,110,142,0.2);
+	position: relative;
+	top: 495px;
 }
 /*
  * Main services
  */
 #content_main_services{
-	height:577px;
-	width: 100%;
 	position:absolute;
 }
 #all_services{
@@ -146,31 +159,31 @@ nav > a.active{
  * Main objectives
  */
 #content_main_objectives{
-	background-image: url("../Images/violin1.png");
+	background-image: url("../Images/VioliMC.png");
 	background-repeat: no-repeat;
-	height:577px;
-	width: 100%;
 }
 #description{
-	min-width: 404px;
-	min-height: 577px;
-	max-width: 404px;
+	max-width: 390px;
 	max-height: 577px;
-	background-color: rgba(57,110,142,0.8);
+	margin-right: 167px;
+	float: right;
 }
 #description > span >p{
-	color: #ffffff;
-	padding: 65px 50px 0px;
-	margin-top: 0px;
+	color: #396e8e;
+	background-color: rgba(255,255,255,0.6);
+	line-height: 15pt;
+	font-size:14px;
+	margin: 0px;
+	padding: 33px;
 }
-#description > span >p:last-child{
-	color: #ffffff;
-	padding: 0px 50px 0px;
+#description > span >p:first-child{
+	margin-bottom:25px;
 }
 #description > span >p >span{
-	font-size: 29px;
 	font-weight: bold;
+	text-align: right;
 }
+
 /*
  * Main test
  */
@@ -205,11 +218,54 @@ nav > a.active{
  * Main contact
  */
 #content_main_contact{
-	background-image: url("../Images/contacto.png");
-	height: 577px;
-	width: 100%;
+	background-image: url("../Images/contactos.png");
 	background-repeat: no-repeat;
 }
+.directions{
+	width: 285px;
+	height: 577px;
+	background-color: rgba(57,110,142,0.2);
+	color: #ffffff;
+	float:right;
+	margin-right:60px;
+	padding-left: 47px;
+}
+form{
+	margin-top: 35px;
+	margin-bottom: 171px;
+}
+input{
+	width: 225px;
+}
+.name, .lastname, .mail{
+	padding-left: 9px;
+	border: 1px #ffffff solid;
+	background-color: transparent;
+}
+.name:focus, .lastname:focus, .mail:focus{
+	border: 1px #396e8e solid;
+}
+.name{
+	margin-top: 17px;
+}
+.lastname, .mail{
+	margin-top: 8px;
+}
+.submit{
+	margin-top:14px;
+	width: 64px;
+	float: right;
+	margin-right: 50px;
+	background-color: #396e8e;
+	border: none;
+}
+.submit:active{
+	background-color: rgba(184,195,199, 0.6);
+}
+.submit:focus{
+	outline:none;
+}
+
 /*
  * Footer
  */
@@ -228,13 +284,14 @@ footer > a{
 }
 #legal{
 	float: right;
+	margin-right: 53px;
 }
 #legal, #languages > a{
 	text-decoration: none;
 	color: #ADC3D0;
 }
 footer{
-	height: 100px;
+	height: 226px;
 	width: 100%;
 	position: absolute;
 	background-color: #ffffff;
@@ -271,7 +328,8 @@ that the width is big enough to contain all items.
 .jcarousel ul {
 	width: 20000em;
 	position: relative;
-
+	/*margin: 0 auto;
+	width: 1024px;*/
 	/* Optional, required in this case since it's a <ul> element */
 	list-style: none;
 	margin: 0;
@@ -285,4 +343,14 @@ have a fixed width and height (but it's not required).
 .jcarousel li {
 	/* Required only for block elements like <li>'s */
 	float: left;
+}
+.jcarousel > ul > li#page2{
+	background-image: url("../Images/2cares.png");
+	background-repeat: no-repeat;
+	height: 577px;
+	width: 1423px;
+}
+.jcarousel > ul > li span{
+	color: #ffffff;
+	font-size: 60px;
 }
