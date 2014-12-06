@@ -18,7 +18,8 @@ html, body {
 #content_main_presentation,
 #content_main_objectives,
 #content_main_contact,
-#content_main_contact{
+#content_main_contact,
+#content_main_test{
 	height:577px;
 	width: 1423px;
 	margin:0 auto;
@@ -208,12 +209,40 @@ nav a:last-child{
 #question_test > span > ol{
 	list-style: none;
 	line-height: 46px;
+	float:left;
 }
 #question_test > span > span{
 	font-size: 18px;
 	font-weight: bold;
 	margin-left: 40px;
 }
+#button_click{
+	min-height: 214px;
+	min-width: 214px;
+	max-height: 214px;
+	max-width: 214px;
+	float: right;
+	border-radius: 50%;
+	border: 3px #ffffff solid;
+	text-decoration: none;
+	display: flex;
+	color: #396e8e;
+	margin-top: 205px;
+	margin-right: 145px;
+}
+#button_click > span{
+	text-align: center;
+	margin: auto;
+}
+#button_click:hover{
+	background-color: rgba(184,195,199, 0.6);
+	color: #ffffff;
+}
+#button_click:active{
+	background-color: #396e8e;
+	color: #ffffff;
+}
+
 /*
  * Main contact
  */
@@ -230,9 +259,15 @@ nav a:last-child{
 	margin-right:60px;
 	padding-left: 47px;
 }
-form{
+.directions form{
 	margin-top: 35px;
-	margin-bottom: 171px;
+	margin-bottom: 60px;
+}
+.directions p{
+	margin-bottom: 90px;
+}
+.directions p > a{
+	color: #396e8e;
 }
 input{
 	width: 225px;
@@ -266,6 +301,10 @@ input{
 	outline:none;
 }
 
+input[type=checkbox]{
+	width: 13px;
+	margin-top: 12px;
+}
 /*
  * Footer
  */

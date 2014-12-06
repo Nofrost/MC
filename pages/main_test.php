@@ -59,3 +59,26 @@
 		</ol>
 	</span>
 </div>
+<a id="button_click" href="home.php?page=Contact&lang=<?php echo $lang;?>">
+	<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
+		CLIQUI AQU&Iacute;<br>
+		Els nostres especialistes<br>
+		es posaran en contacte<br>
+		amb vost&egrave;
+	</span>
+	<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">
+		CLICK AQU&Iacute;<br>
+		Nuestros especialistas<br>
+		se pondr&aacute;n en contacto<br>
+		con usted
+	</span>
+	<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">
+		CLICK HERE<br>
+		Our specialists<br>
+		will contact you
+	</span>
+	<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">
+		CLIQUI AQU&Iacute;<br>
+		Els nostres especialistes eses posaran en contacteamb vost&egrave;
+	</span>
+</a>

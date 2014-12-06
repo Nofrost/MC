@@ -1,7 +1,7 @@
 <?php if(!isset($page)) { header( 'Location: home.php');die( 'Redirect a home'); }?>
 <div class="directions">
 	<div class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
-		<form action="demo_form.asp">
+		<form action="form">
 			<span>
 				Ompli el formulari i nosaltres<br>
 				contactarem amb vostè
@@ -9,8 +9,13 @@
 			<input class="name" type="text" name="Name" value="Nom" onfocus="if (this.value=='Nom') this.value='';"onblur="if (this.value=='') this.value='Nom';"><br>
 			<input class="lastname"type="text" name="LastName" value="Cognoms" onfocus="if (this.value=='Cognoms') this.value='';"onblur="if (this.value=='') this.value='Cognoms';"><br>
 			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
-			<input class="submit" type="submit" value="Enviar">
+			<input class="submit" type="submit" value="Enviar"><br>
+			<p>
+				<input type="checkbox" name="Legal" value="Privacity">
+				Accepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>">declaraci&oacute; de privacitat</a><br> de MC Consulta Auditiva
+			</p>
 		</form>
+
 		<span>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
 			C/Mandri, nº49<br>
