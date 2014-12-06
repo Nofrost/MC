@@ -32,33 +32,40 @@ window._preloadImage = function(url) {
 $(document).ready(function() {
 	//About navigation
 	$("header_wrapper > #logo").click(function() {
-		$("#content_main_services,#content_main_objectives,#content_main_test,#content_main_contact").addClass("hide");
+		$("#content_main_services,#content_main_objectives,#content_main_test,#content_main_contact,#content_main_legal").addClass("hide");
 		$("#content_main_presentation").removeClass("hide");
 	});
 	$("nav > #objectives").click(function() {
-		$("#content_main_services,#content_main_presentation,#content_main_test,#content_main_contact").addClass("hide");
+		$("#content_main_services,#content_main_presentation,#content_main_test,#content_main_contact,#content_main_legal").addClass("hide");
 		$("#content_main_objectives").removeClass("hide");
 		$("#objectives").addClass("active");
-		$("#services,#test,#contact").removeClass("active");
+		$("#services,#test,#contact,#legal").removeClass("active");
 	});
 	$("nav > #services").click(function() {
-		$("#content_main_objectives,#content_main_presentation,#content_main_test,#content_main_contact").addClass("hide");
+		$("#content_main_objectives,#content_main_presentation,#content_main_test,#content_main_contact,#content_main_legal").addClass("hide");
 		$("#content_main_services").removeClass("hide");
 		$("#objectives").addClass("active");
-		$("#objectives,#test,#contact").removeClass("active");
+		$("#objectives,#test,#contact,#legal").removeClass("active");
 	});
 	$("nav > #test").click(function() {
-		$("#content_main_services,#content_main_presentation,#content_main_objectives,#content_main_contact").addClass("hide");
+		$("#content_main_services,#content_main_presentation,#content_main_objectives,#content_main_contact,#content_main_legal").addClass("hide");
 		$("#content_main_test").removeClass("hide");
 		$("#test").addClass("active");
-		$("#services,#objectives,#contact").removeClass("active");
+		$("#services,#objectives,#contact,#legal").removeClass("active");
 	});
 	$("nav > #contact").click(function() {
-		$("#content_main_services,#content_main_presentation,#content_main_objectives,#content_main_test").addClass("hide");
+		$("#content_main_services,#content_main_presentation,#content_main_objectives,#content_main_test,#content_main_legal").addClass("hide");
 		$("#content_main_contact").removeClass("hide");
 		$("#contact").addClass("active");
-		$("#services,#objectives,#test").removeClass("active");
+		$("#services,#objectives,#test,#legal").removeClass("active");
 	});
+	$("#footer_wrapper > #legal").click(function() {
+		$("#content_main_services,#content_main_presentation,#content_main_objectives,#content_main_test,#content_main_contact").addClass("hide");
+		$("#content_main_legal").removeClass("hide");
+		$("#legal").addClass("active");
+		$("#services,#objectives,#test,#contact").removeClass("active");
+	});
+
 
 	/*
 	Info:

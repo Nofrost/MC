@@ -1,4 +1,4 @@
-<?php if(!isset($page)) { header( 'Location: index.php');die( 'Redirect a index'); }?>
+<?php if(!isset($page)) { header( 'Location: home.php');die( 'Redirect a home'); }?>
 <div class="directions">
 	<div class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
 		<form action="demo_form.asp">
@@ -49,11 +49,11 @@
 	<div class="tr en <?php if($lang != 'en') echo 'hide'; ?>">
 		<form action="demo_form.asp">
 			<span>
-				Fill out the application form<br>
-				and we contact you
+				Fill out the form and<br>
+				we&#39;ll contact you
 			</span>
 			<input class="name" type="text" name="Name" value="Name" onfocus="if (this.value=='Name') this.value='';"onblur="if (this.value=='') this.value='Name';"><br>
-			<input class="lastname"type="text" name="LastName" value="LastName" onfocus="if (this.value=='LastName') this.value='';"onblur="if (this.value=='') this.value='LastName';"><br>
+			<input class="lastname"type="text" name="LastName" value="Last name" onfocus="if (this.value=='Last name') this.value='';"onblur="if (this.value=='') this.value='Last name';"><br>
 			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
 			<input class="submit" type="submit" value="Send">
 		</form>
@@ -69,6 +69,16 @@
 		</span>
 	</div>
 	<div class="tr it <?php if($lang != 'it') echo 'hide'; ?>">
+			<form action="demo_form.asp">
+			<span>
+				Compila il modulo e <br>
+				ci metteremo in contatto
+			</span>
+			<input class="name" type="text" name="Name" value="Nome" onfocus="if (this.value=='Nome') this.value='';"onblur="if (this.value=='') this.value='Nome';"><br>
+			<input class="lastname"type="text" name="LastName" value="Cognome" onfocus="if (this.value=='Cognome') this.value='';"onblur="if (this.value=='') this.value='Cognome';"><br>
+			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
+			<input class="submit" type="submit" value="Inviare">
+		</form>
 		<span>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
 			Mandri, nº49<br>

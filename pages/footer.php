@@ -8,7 +8,7 @@
 			<a id="button_ENG" href="home.php?page=<?php echo $page;?>&lang=en" <?php if($lang == 'en') echo 'class="active"'; ?>>ENG</a>
 			<a id="button_IT" href="home.php?page=<?php echo $page;?>&lang=it" <?php if($lang == 'it') echo 'class="active"'; ?>>IT</a>
 		</div>
-		<a id="legal" href="">
+		<a id="legal" href="home.php?page=Legal&lang=<?php echo $lang;?>"<?php if($page == 'Legal') echo 'class="active"'; ?>>
 			<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Av&iacute;s Legal</span>
 			<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Aviso Legal</span>
 			<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Legal warnning</span>
@@ -16,4 +16,3 @@
 		</a>
 	</div>
 </footer>
-

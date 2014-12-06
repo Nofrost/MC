@@ -1,4 +1,4 @@
-<?php if(!isset($page)) { header( 'Location: home_page.php');die( 'Redirect a home_page'); }?>
+<?php if(!isset($page)) { header( 'Location: home.php');die( 'Redirect a home'); }?>
 <div id="video-viewport">
 			<video autoplay preload width="1423" height="auto" scale="tofit" id="video-player" controls muted>
 					<source src="videos/MC_spot-3_v3.ogg" type="video/ogg" />
@@ -16,9 +16,8 @@
 				<tspan x="33" y="75">audiol&oacute;gico</tspan>
 				<tspan x="43" y="95">gratuito</tspan>
 			</text>
-			<text x="56" y="55" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Free
-				<tspan x="31" y="75">audiological</tspan>
-				<tspan x="52" y="95">study</tspan>
+			<text x="28" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Free hearing
+				<tspan x="50" y="85">study</tspan>
 			</text>
 			<text x="47" y="55" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Esame
 				<tspan x="33" y="75">audiologico</tspan>
@@ -54,7 +53,7 @@
 				<tspan x="35" y="85">adaptaci&oacute;n</tspan>
 			</text>
 			<text x="31" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Gurarantee
-				<tspan x="33" y="85">adaptation</tspan>
+				<tspan x="26" y="85">of adaptation</tspan>
 			</text>
 			<text x="17" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Applicazioni con
 				<tspan x="43" y="85">garanzia</tspan>
@@ -69,8 +68,8 @@
 			<text x="29" y="65" style="fill:#396e8e" <?php if($lang != 'es') echo 'visibility="hidden"'; ?>>Financiaci&oacute;n
 				<tspan x="38" y="85">a medida</tspan>
 			</text>
-			<text x="30" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Customized
-				<tspan x="38" y="85">financing</tspan>
+			<text x="43" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Tailored
+				<tspan x="46" y="85">finance</tspan>
 			</text>
 			<text x="23" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Finanziamenti
 				<tspan x="24" y="85">personalizzati</tspan>
@@ -85,8 +84,8 @@
 			<text x="38" y="65" style="fill:#396e8e" <?php if($lang != 'es') echo 'visibility="hidden"'; ?>>Asistencia
 				<tspan x="36" y="85">a domicilio</tspan>
 			</text>
-			<text x="32" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Domiciliary
-				<tspan x="55" y="85">care</tspan>
+			<text x="49" y="65" style="fill:#396e8e" <?php if($lang != 'en') echo 'visibility="hidden"'; ?>>Home
+				<tspan x="37" y="85">assistance</tspan>
 			</text>
 			<text x="35" y="65" style="fill:#396e8e" <?php if($lang != 'it') echo 'visibility="hidden"'; ?>>Assistenza
 				<tspan x="34" y="85">a domicilio</tspan>

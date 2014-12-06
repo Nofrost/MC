@@ -16,5 +16,8 @@
 		<div id="content_main_contact" <?php if($page != 'Contact') echo 'class="hide"'; ?>>
 			<?php include "main_contact.php"; ?>
 		</div>
+		<div id="content_main_legal" <?php if($page != 'Legal') echo 'class="hide"'; ?>>
+			<?php include "main_legal.php"; ?>
+		</div>
 	</div>
 </div>

@@ -1,4 +1,4 @@
-<?php if(!isset($page)) { header('Location: home_page.php');die('Redirect a home_page'); } ?>
+<?php if(!isset($page)) { header('Location: home.php');die('Redirect a home'); } ?>
 
 <header>
 	<div id="header_wrapper">
