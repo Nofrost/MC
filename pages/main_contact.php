@@ -8,24 +8,24 @@
 			</span>
 			<input class="name" type="text" name="name" value="Nom" onfocus="if (this.value=='Nom') this.value='';"onblur="if (this.value=='') this.value='Nom';"><br>
 			<input class="lastname"type="text" name="lastname" value="Cognoms" onfocus="if (this.value=='Cognoms') this.value='';"onblur="if (this.value=='') this.value='Cognoms';"><br>
-			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
+			<input class="phone"type="text" name="phone" value="Tel&egrave;fon" onfocus="if (this.value=='Tel&egrave;fon') this.value='';"onblur="if (this.value=='') this.value='Tel&egrave;fon';"><br>
 			<input class="submit" type="submit" value="Enviar" disabled><br>
-			<p>
-				<input type="checkbox" id="check" name="Legal" value="Privacity">
-				He llegit i accepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>">declaraci&oacute; de privacitat</a> de MC Consulta Auditiva
+			<p class="shit">
+				<input type="checkbox" id="check" name="Legal" value="check"/>
+					He llegit i accepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>">declaraci&oacute; de privacitat</a> de MC Consulta Auditiva
 			</p>
 		</form>
 
-		<span>
+		<div>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
 			C/Mandri, nº49<br>
 			08022 Barcelona<br>
-			Tel&egrave;fon 932 118 046<br><br><br>
+			Tel&egrave;fon 932 118 046<br><br>
 			<b>M.C. Consulta Auditiva MALLORCA</b><br>
 			C/Pla&ccedil;a Espanya, nº7<br>
 			07002 Palma de Mallorca<br>
 			Tel&egrave;fon 971 107 108
-		</span>
+		</div>
 	</div>
 
 	<div class="tr es <?php if($lang != 'es') echo 'hide'; ?>">
@@ -36,23 +36,23 @@
 			</span>
 			<input class="name" type="text" name="name" value="Nombre" onfocus="if (this.value=='Nombre') this.value='';"onblur="if (this.value=='') this.value='Nombre';"><br>
 			<input class="lastname"type="text" name="lastname" value="Apellidos" onfocus="if (this.value=='Apellidos') this.value='';"onblur="if (this.value=='') this.value='Apellidos';"><br>
-			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
+			<input class="phone"type="text" name="phone" value="Tel&eacute;fono" onfocus="if (this.value=='Tel&eacute;fono') this.value='';"onblur="if (this.value=='') this.value='Tel&eacute;fono';"><br>
 			<input class="submit" type="submit" value="Enviar" disabled><br>
 			<p>
 				<input type="checkbox" name="Legal" value="Privacity">
 				He le&iacute;do y acepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>">declaraci&oacute;n de privacidad</a> de MC Consulta Auditiva
 			</p>
 		</form>
-		<span>
+		<div>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
 			CL/Mandri, nº49<br>
 			08022 Barcelona<br>
-			Tel&eacute;fono 932 118 046<br><br><br>
+			Tel&eacute;fono 932 118 046<br><br>
 			<b>M.C. Consulta Auditiva MALLORCA</b><br>
 			CL/Plaza Espa&ntilde;a, nº7<br>
 			07002 Palma de Mallorca<br>
 			Tel&eacute;fono 971 107 108
-		</span>
+		</div>
 	</div>
 
 	<div class="tr en <?php if($lang != 'en') echo 'hide'; ?>">
@@ -63,23 +63,23 @@
 			</span>
 			<input class="name" type="text" name="name" value="Name" onfocus="if (this.value=='Name') this.value='';"onblur="if (this.value=='') this.value='Name';"><br>
 			<input class="lastname"type="text" name="lastname" value="Last name" onfocus="if (this.value=='Last name') this.value='';"onblur="if (this.value=='') this.value='Last name';"><br>
-			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
+			<input class="phone"type="text" name="phone" value="Phone number" onfocus="if (this.value=='Phone number') this.value='';"onblur="if (this.value=='') this.value='Phone number';"><br>
 			<input class="submit" type="submit" value="Send" disabled><br>
 			<p>
 				<input type="checkbox" name="Legal" value="Privacity">
 				I&#39;ve read and accept <a href="home.php?page=Legal&lang=<?php echo $lang;?>">the privacy statement</a> of MC Consulta Auditiva
 			</p>
 		</form>
-		<span>
+		<div>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
 			Mandri, nº49<br>
 			08022 Barcelona<br>
-			Phone Number (+34) 932 118 046<br><br><br>
+			Phone Number (+34) 932 118 046<br><br>
 			<b>M.C. Consulta Auditiva MALLORCA</b><br>
 			Plaza Espa&ntilde;a, nº7<br>
 			07002 Palma de Mallorca<br>
 			Phone Number (+34) 971 107 108
-		</span>
+		</div>
 	</div>
 	<div class="tr it <?php if($lang != 'it') echo 'hide'; ?>">
 			<form action="demo_form.asp">
@@ -89,19 +89,19 @@
 			</span>
 			<input class="name" type="text" name="name" value="Nome" onfocus="if (this.value=='Nome') this.value='';"onblur="if (this.value=='') this.value='Nome';"><br>
 			<input class="lastname"type="text" name="lastname" value="Cognome" onfocus="if (this.value=='Cognome') this.value='';"onblur="if (this.value=='') this.value='Cognome';"><br>
-			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
+			<input class="phone"type="text" name="phone" value="Telefono" onfocus="if (this.value=='Telefono') this.value='';"onblur="if (this.value=='') this.value='Telefono';"><br>
 			<input class="submit" type="submit" value="Inviare" disabled>
 		</form>
-		<span>
+		<div>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
 			Mandri, nº49<br>
 			08022 Barcelona<br>
-			Telefono (+34) 932 118 046<br><br><br>
+			Telefono (+34) 932 118 046<br><br>
 			<b>M.C. Consulta Auditiva MALLORCA</b><br>
 			Plaza Espa&ntilde;a, nº7<br>
 			07002 Palma de Mallorca<br>
 			Telefono (+34) 971 107 108
-		</span>
+		</div>
 	</div>
 </div>
 
