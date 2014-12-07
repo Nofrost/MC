@@ -6,13 +6,13 @@
 				Ompli el formulari i nosaltres<br>
 				contactarem amb vostè
 			</span>
-			<input class="name" type="text" name="Name" value="Nom" onfocus="if (this.value=='Nom') this.value='';"onblur="if (this.value=='') this.value='Nom';"><br>
-			<input class="lastname"type="text" name="LastName" value="Cognoms" onfocus="if (this.value=='Cognoms') this.value='';"onblur="if (this.value=='') this.value='Cognoms';"><br>
+			<input class="name" type="text" name="name" value="Nom" onfocus="if (this.value=='Nom') this.value='';"onblur="if (this.value=='') this.value='Nom';"><br>
+			<input class="lastname"type="text" name="lastname" value="Cognoms" onfocus="if (this.value=='Cognoms') this.value='';"onblur="if (this.value=='') this.value='Cognoms';"><br>
 			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
-			<input class="submit" type="submit" value="Enviar"><br>
+			<input class="submit" type="submit" value="Enviar" disabled><br>
 			<p>
-				<input type="checkbox" name="Legal" value="Privacity">
-				Accepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>">declaraci&oacute; de privacitat</a><br> de MC Consulta Auditiva
+				<input type="checkbox" id="check" name="Legal" value="Privacity">
+				He llegit i accepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>">declaraci&oacute; de privacitat</a> de MC Consulta Auditiva
 			</p>
 		</form>
 
@@ -34,10 +34,14 @@
 				Rellene el formulario y nosotros<br>
 				contactaremos con usted
 			</span>
-			<input class="name" type="text" name="Name" value="Nombre" onfocus="if (this.value=='Nombre') this.value='';"onblur="if (this.value=='') this.value='Nombre';"><br>
-			<input class="lastname"type="text" name="LastName" value="Apellidos" onfocus="if (this.value=='Apellidos') this.value='';"onblur="if (this.value=='') this.value='Apellidos';"><br>
+			<input class="name" type="text" name="name" value="Nombre" onfocus="if (this.value=='Nombre') this.value='';"onblur="if (this.value=='') this.value='Nombre';"><br>
+			<input class="lastname"type="text" name="lastname" value="Apellidos" onfocus="if (this.value=='Apellidos') this.value='';"onblur="if (this.value=='') this.value='Apellidos';"><br>
 			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
-			<input class="submit" type="submit" value="Enviar">
+			<input class="submit" type="submit" value="Enviar" disabled><br>
+			<p>
+				<input type="checkbox" name="Legal" value="Privacity">
+				He le&iacute;do y acepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>">declaraci&oacute;n de privacidad</a> de MC Consulta Auditiva
+			</p>
 		</form>
 		<span>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
@@ -57,10 +61,14 @@
 				Fill out the form and<br>
 				we&#39;ll contact you
 			</span>
-			<input class="name" type="text" name="Name" value="Name" onfocus="if (this.value=='Name') this.value='';"onblur="if (this.value=='') this.value='Name';"><br>
-			<input class="lastname"type="text" name="LastName" value="Last name" onfocus="if (this.value=='Last name') this.value='';"onblur="if (this.value=='') this.value='Last name';"><br>
+			<input class="name" type="text" name="name" value="Name" onfocus="if (this.value=='Name') this.value='';"onblur="if (this.value=='') this.value='Name';"><br>
+			<input class="lastname"type="text" name="lastname" value="Last name" onfocus="if (this.value=='Last name') this.value='';"onblur="if (this.value=='') this.value='Last name';"><br>
 			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
-			<input class="submit" type="submit" value="Send">
+			<input class="submit" type="submit" value="Send" disabled><br>
+			<p>
+				<input type="checkbox" name="Legal" value="Privacity">
+				I&#39;ve read and accept <a href="home.php?page=Legal&lang=<?php echo $lang;?>">the privacy statement</a> of MC Consulta Auditiva
+			</p>
 		</form>
 		<span>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
@@ -79,10 +87,10 @@
 				Compila il modulo e <br>
 				ci metteremo in contatto
 			</span>
-			<input class="name" type="text" name="Name" value="Nome" onfocus="if (this.value=='Nome') this.value='';"onblur="if (this.value=='') this.value='Nome';"><br>
-			<input class="lastname"type="text" name="LastName" value="Cognome" onfocus="if (this.value=='Cognome') this.value='';"onblur="if (this.value=='') this.value='Cognome';"><br>
+			<input class="name" type="text" name="name" value="Nome" onfocus="if (this.value=='Nome') this.value='';"onblur="if (this.value=='') this.value='Nome';"><br>
+			<input class="lastname"type="text" name="lastname" value="Cognome" onfocus="if (this.value=='Cognome') this.value='';"onblur="if (this.value=='') this.value='Cognome';"><br>
 			<input class="mail"type="text" name="mail" value="E-mail" onfocus="if (this.value=='E-mail') this.value='';"onblur="if (this.value=='') this.value='E-mail';"><br>
-			<input class="submit" type="submit" value="Inviare">
+			<input class="submit" type="submit" value="Inviare" disabled>
 		</form>
 		<span>
 			<b>M.C. Consulta Auditiva BARCELONA</b><br>
@@ -96,3 +104,4 @@
 		</span>
 	</div>
 </div>
+

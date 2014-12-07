@@ -83,7 +83,12 @@ $(document).ready(function() {
 		//Sino també es pot canviar de pàgina amb això:
 //		$('.jcarousel').jcarousel('scroll', 0);
 	});
+	var checkboxes = $("input[type='checkbox']"),
+	submitButt = $("input[type='submit']");
 
+	checkboxes.click(function() {
+		submitButt.attr("disabled", !checkboxes.is(":checked"));
+	});
 
 //	loadImages();
 

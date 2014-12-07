@@ -294,13 +294,15 @@ input{
 	background-color: #396e8e;
 	border: none;
 }
+input[disabled]{
+	background-color: rgba(57,110,142, 0.4);;
+}
 .submit:active{
 	background-color: rgba(184,195,199, 0.6);
 }
 .submit:focus{
 	outline:none;
 }
-
 input[type=checkbox]{
 	width: 13px;
 	margin-top: 12px;
