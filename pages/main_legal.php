@@ -26,7 +26,7 @@
 		</p>
 		<p>You agree that their data might be exclusively licensed for the purpose of providing services in the network audioprotesicos enclosures of MC Consulta Auditiva S. L. as well as to financial institutions in case of the financing of products purchased in the centers audioprotesicos MC Consulta Auditiva S.L..
 		</p>
-		<p>
+		<p>You also agree that your data is treated for commercial purposes of  MC Consulta Auditiva S. L.  (sending advertising, discounts, etc. ). The acceptance so that data may be processed for such commercial purposes has always revocable, without retroactive effect, in accordance with what has the articles 6 and 11 of the organic law 15/1999 of 13 December.
 		</p>
 		<p>You may exercise the rights of access rectified, cancellation and opposition by submiting a written request and crediting your identity to MC Consulta Auditiva S. L.  C/ Mandri No. 49, cp 08022 Barcelona, or by sending an e-mail to consultaauditiva.mandri@gmail.com in which case it will also be necessary for proof of your identity.</p>
 	</span>
