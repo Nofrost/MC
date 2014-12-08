@@ -32,13 +32,13 @@
 	<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">
 		<p>
 			<b>WHO WE ARE</b><br><br>
-			We are a team of specialists in Audiology graduates with experience in the sector for more than 30 years.<br><br>
-			Committed to our society and the health of it, together we work to facilitate and improve a critical and at the same time fundamental question in the day-to-day of our patients: the hearing.
+			We are a team of specialists graduated in Audiology with over 30 years of experience.<br><br>
+			Committed to our society and its health, we work together to facilitate and improve a critical and fundamental question in the day-to-day of our patients: the hearing.
 		</p>
 		<p>
 			<b>PRINCIPLES AND VALUES</b><br><br>
 			We believe in the power of technology as a medium and solution to all types of hearing difficulties.<br><br>
-			We believe in the passion as an engine to achieve any objective and thus grow together with our patients. But above all, we believe in professionalism and proximity as keys to success, to always offer the best service of the highest quality.<br><br>
+			We believe in the passion as the engine to achieve any objective and thus grow together with our patients. But above all, we believe in professionalism and proximity as keys to success, in order to always offer the best service with the highest quality.<br><br>
 			This is our hallmark and guarantee of professionalism.
 		</p>
 	</span>

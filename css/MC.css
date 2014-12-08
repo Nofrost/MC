@@ -19,7 +19,8 @@ html, body {
 #content_main_objectives,
 #content_main_contact,
 #content_main_contact,
-#content_main_test{
+#content_main_test,
+#content_main_legal{
 	height:577px;
 	width: 1423px;
 	margin:0 auto;
@@ -37,16 +38,15 @@ html, body {
 	margin: 0 auto;
 }
 #logo{
-	float:left;
-	height: 115px;
-	width: 198px;
 	background-image: url(../Images/logo_MC.svg);
 	background-repeat: no-repeat;
+	height: 115px;
+	width: 198px;
+	float:left;
 	margin-top: 36px;
 	cursor:pointer;
 }
 nav{
-	/*margin-left: 350px;*/
 	float:right;
 	margin-top: 131px;
 }
@@ -124,37 +124,59 @@ nav a:last-child{
 	width: 100%;
 	height: 82px;
 	text-align: center;
-	background-color: rgba(57,110,142,0.2);
+	background-color: rgba(57,110,142,0.4);
 	position: relative;
 	top: 495px;
 }
 /*
  * Main services
  */
-#content_main_services{
-	position:absolute;
+#trans {
+	position:relative;
+	height:577px;
+	width:1024px;
+	float: left;
+	background-image: url("../Images/cara_retocada.png");
+	background-repeat: no-repeat;
 }
+
 #all_services{
-	height: 170px;
-	width: 100%;
-	background-color: rgba(57,110,142,0.8);
-	top: 407px;
-	position: absolute;
-	z-index: 1000;
+	height: 332px;
+	width: 394px;
+	background-color: rgba(57,110,142,0.3);
+	float: left;
+	color: #ffffff;
 }
-#services_wrapper{
-	width: 85%;
-	margin: 0 auto;
-	position: relative;
+#all_services ul{
+	list-style: none;
+	color: #ffffff;
+	line-height: 34px;
+	font-size: 18px;
+	padding-top: 18px;
 }
-#services_wrapper > svg{
-	margin: 15px 40px 15px 0;
+#services_title{
+	width: 394px;
+	height: 240px;
+	background-color: rgba(57,110,142,1);
+	float: left;
+	color: #B8CAD4;
+	font-size: 30px;
 }
-#services_wrapper > svg:first-child{
-	margin-left: 78px;
+#services_title > div {
+	margin-top: 128px;
+	margin-left: 41px;
 }
-#services_wrapper > svg >text.active{
-	visibility: visible;
+
+#vertical_white_line{
+	height: 577px;
+	width: 5px;
+	background-color: #ffffff;
+	float: left;
+}
+#content_main_services > #white_line{
+	width: 394px;
+	float:left;
+	position:initial;
 }
 /*
  * Main objectives
@@ -180,6 +202,7 @@ nav a:last-child{
 #description > span >p:first-child{
 	margin-bottom:25px;
 }
+
 /*#description > span >p >span{
 	font-weight: bold;
 	text-align: right;
@@ -188,6 +211,9 @@ nav a:last-child{
 /*
  * Main test
  */
+#content_main_test{
+	/*background-color: #B1C7DF;*/
+}
 #white_line{
 	position: absolute;
 	height: 5px;
@@ -212,49 +238,71 @@ nav a:last-child{
 	margin: 0 auto;
 	color: #396e8e;
 }
-#question_test > span > ol{
-	list-style: none;
-	line-height: 29px;
-	float:left;
-	position: relative;
-	left:60px;
-	bottom: 155px;
+#question_test > span{
+	position: absolute;
+	top: 350px;
+	z-index: 0;
+}
+#question_test > span > #ord_list{
+	font-weight: normal;
+	margin-left:138px;
+}
+#question_test > span > div{
+	font-weight: bold;
 	font-size: 18px;
 }
-
-.circle_q{
-	border-radius: 50%;
-	height: 25px;
-	max-width: 25;
-	border: 2px #fff solid;
+#question_test > span > div > ol{
+	list-style: none;
+	line-height: 30px;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
 }
+#question_test > span > div:last-child{
+	font-weight: normal;
+	font-size: 18px;
+}
+#question_test > span > div:last-child > a{
+	color: #396e8e;
+	font-weight: bold;
+	text-decoration: none;
+}
+#question_test > span > div:last-child > a:hover{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#radio_list{
+	margin-top: 118px;
+	margin-left: 93px;
+	position: absolute;
+	z-index: 1;
+}
+
 /*
-  Hide radio button (the round disc)
-  we will use just the label to create pushbutton effect
+	Hide radio button (the round disc)
+	we will use just the label to create pushbutton effect
 */
 input[type=radio] {
-    display:none;
-    margin:10px;
+	display:none;
+	margin:10px;
 }
 
 /*
-  Change the look'n'feel of labels (which are adjacent to radiobuttons).
-  Add some margin, padding to label
+	Change the look'n'feel of labels (which are adjacent to radiobuttons).
+	Add some margin, padding to label
 */
 input[type=radio] + label {
-    display:list-item;
+	display:list-item;
 	border-radius: 50%;
 	height: 14px;
 	width: 14px;
-    background-color: transparent;
-    border-color: #ddd;
+	background-color: transparent;
+	border-color: #ddd;
 	content: '';
 	color: transparent;
-	border: 3px #fff solid;
-	position: relative;
-	left:44px;
-	top: 119px;
-	margin-bottom: 9px;
+	border: 2px #B1C7DF solid;
+	margin-bottom: 12px;
 	cursor: pointer;
 }
 /*
@@ -262,51 +310,11 @@ input[type=radio] + label {
  to make it look like highlighted button
 */
 input[type=radio]:checked + label {
-    background-image:url("../Images/rodona.png");
+	background-image:url("../Images/rodona.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#question_test > span > span{
-	font-weight: bold;
-	position: relative;
-	bottom:153px;
-	right: 58px;
-	font-size: 18px;
-}
-#question_test > span > span:last-child{
-	font-weight: bold;
-	position: relative;
-	top:130px;
-	right: 526px;
-	font-size: 18px;
-}
-#button_click{
-	min-height: 214px;
-	min-width: 214px;
-	max-height: 214px;
-	max-width: 214px;
-	float: right;
-	border-radius: 50%;
-	border: 3px #ffffff solid;
-	text-decoration: none;
-	display: flex;
-	color: #396e8e;
-	position: relative;
-	top:51px;
-	right:286px;
-}
-#button_click > span{
-	text-align: center;
-	margin: auto;
-}
-#button_click:hover{
-	background-color: rgba(184,195,199, 0.6);
-	color: #ffffff;
-}
-#button_click:active{
-	background-color: #396e8e;
-	color: #ffffff;
-}
+
 
 /*
  * Main contact
@@ -388,7 +396,33 @@ input[type=checkbox]{
 	width: 13px;
 	margin-top: 12px;
 }
+#result_test{
+	position: absolute;
+	right: 392px;
+	top: 200px;
+	width: 292px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 25px 0px 25px 25px;
+	color: #396e8e;
+	border-radius: 32px 32px 32px 32px;
+}
+ div.tr.en > div#result_test{
+	width: 278px;
+}
+ div.tr.it > div#result_test{
+	width: 298px;
+}
+#result_test.active{
+	display: inherit;
+}
+div.arrow-right {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 11px 0 11px 13px;
+	border-color: transparent transparent transparent #ffffff;
 
+}
 /*
  * Footer
  */
@@ -419,11 +453,10 @@ footer > a{
 	margin: 0 auto;
 }
 #legal_wrapper > span > p:first-child{
-	padding-top:25px;
+	padding-top:135px;
 	margin: 0;
 }
 footer{
-	height: 226px;
 	width: 100%;
 	position: absolute;
 	background-color: #ffffff;
@@ -435,9 +468,24 @@ footer{
 	z-index: 2000;
 	position: relative;
 }
+#legal_wrapper{
+	width: 1024px;
+	text-align: justify;
+	margin: 0 auto;
+}
+#content_main_legal{
+	/*background-color:rgba(57,110,142,0.3);*/
+	color: #396e8e;
+}
+#legal_wrapper > span > p:first-child{
+	padding-top:135px;
+	margin: 0;
+}
 
-
-
+#legal_wrapper > span.tr.it > p:first-child{
+	padding-top:155px;
+	margin: 0;
+}
 
 /* jCarousel */
 

@@ -65,21 +65,9 @@ $(document).ready(function() {
 		$("#legal").addClass("active");
 		$("#services,#objectives,#test,#contact").removeClass("active");
 	});
-	var allRadios = document.getElementsByName('radios');
-        var booRadio;
-        var x = 0;
-        for(x = 0; x < allRadios.length; x++){
-
-            allRadios[x].onclick = function() {
-                if(booRadio == this){
-                    this.checked = false;
-                    booRadio = null;
-                }else{
-                    booRadio = this;
-                }
-            };
-        }
-
+	$("#question_test > span > div:last-child > a#button_click").click(function() {
+		$("#result_test").addClass("active");
+	});
 	/*
 	Info:
 		http://sorgalla.com/jcarousel/docs/reference/configuration.html

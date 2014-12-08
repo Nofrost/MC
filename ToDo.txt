@@ -1,0 +1,8 @@
+Queda per fer:
+
+	A la pàgina de presentació que es redimensioni el quan el vídeo i després
+	A la pàgina de serveis que al acabar el video es posi la foto
+	A la pàgina de test que et conti el radio check marcats i que amb el botó de clicar et linki a l altre canto guardan les dades. S'ha de poder marcar i
+	desmarcar els radio checks.
+	A la pàgina de contacte fer apareixa i desapareixa el quadret i fer el php en el submit perque s'envii al mail.
+	i... a tomar por culo

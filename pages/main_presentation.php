@@ -15,7 +15,7 @@
 			<div id="slogan">
 				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Duria aquests audi&ograve;fons?</span>
 				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Llevaría estos aud&iacute;fonos?</span>
-				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>"></span>
+				<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Take this hearing aid?</span>
 				<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>"> Porteresti questi apparecchi?</span>
 			</div>
 		</li>
