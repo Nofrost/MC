@@ -8,9 +8,10 @@
 		<?php include "head.php"; ?>
 	</head>
 
-	<body>
+	<body data-page="<?php echo $page; ?>">
 		<!--<div id="guia_layout"></div>-->
-		<div id="Logo_index"></div>
+		<div id="Logo_index" class="logo_index"></div>
+		<div id="Logo_index_jpg" class="logo_index hide"></div>
 		<div id="Languages_index">
 			<a id="button_CAT_index" href="home.php?page=Presentation&lang=cat">CAT</a>
 			<a id="button_ESP_index" href="home.php?page=Presentation&lang=es">ESP</a>

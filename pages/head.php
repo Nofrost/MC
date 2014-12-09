@@ -2,9 +2,13 @@
 
 <!-- Configurations, CSS & JS -->
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 <meta name="description" content="MC CONSULTA AUDITIVA">
 <meta name="keywords" content="MC CONSULTA AUDITIVA">
 <meta name="author" content="MC CONSULTA AUDITIVA">
+
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
 <link type="text/css" rel="stylesheet" href="css/MC.css"/>

@@ -1,17 +1,23 @@
 <?php if(!isset($page)) { header( 'Location: home.php');die( 'Redirect a home'); }?>
+<?php /*
+<div class="presentation_wrapper">
+	<div id="video-viewport"></div>
+	<div id="image-viewport" class="hide"></div>
+</div>
 
-<div class="jcarousel">
+*/ ?>
+<div class="jcarousel jcarousel-small">
 	<ul>
 		<li id="page1">
 			<div id="video-viewport">
-				<video autoplay preload width="1024" height="auto" scale="tofit" id="video-player">
+				<video <?php if($page === 'Presentation') echo "preload"; ?> width="1024" height="auto" scale="tofit" id="video-player" poster="Images/presentacio.jpg">
 					<source src="videos/MC_spot-1_v3.ogg" type="video/ogg" />
 					<source src="videos/MC_spot-1_v3.mp4" type="video/mp4" />
 				</video>
 			</div>
 		</li>
 		<li id="page2">
-			<?php /* <img src="Images/2cares.png">*/?>
+			<!--<img src="Images/2cares.png">-->
 			<div id="slogan">
 				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Duria aquests audi&ograve;fons?</span>
 				<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Llevaría estos aud&iacute;fonos?</span>

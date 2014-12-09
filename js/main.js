@@ -30,8 +30,9 @@ window._preloadImage = function(url) {
 };*/
 
 $(document).ready(function () {
+	window.actualPage = $("body").attr('data-page');
+
 	//About navigation
-	'use strict';
 	$("header_wrapper > #logo").click(function () {
 		$("#content_main_services,#content_main_objectives,#content_main_test,#content_main_contact,#content_main_legal").addClass("hide");
 		$("#content_main_presentation").removeClass("hide");
@@ -80,18 +81,57 @@ $(document).ready(function () {
 		transitions: true,
 		animation: 1000
 	});
-	$("#video-player").bind('ended', function () { //Al acabar el video
-		$('.jcarousel').jcarousel('scroll', '+=1'); //Usage
-		//Sino també es pot canviar de pàgina amb això:
-//		$('.jcarousel').jcarousel('scroll', 0);
-	});
-	var checkboxes = $("input[type='checkbox']"), submitButt = $("input[type='submit']"), vid = $("#video-player");
-	checkboxes.click(function () {
-		submitButt.attr("disabled", !checkboxes.is(":checked"));
-	});
-	if ($('#content_main_presentation').hassClass("hide")) {
-		vid.muted = true;
+
+
+	switch (window.actualPage) {
+	case 'index':
+//		console.log('testing svg');
+		nosvg = false;
+		try {
+			if (!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {
+				nosvg = true;
+			}
+		} catch (e) {
+			nosvg = true;
+		}
+		if (nosvg) {
+//			console.log('nosvg');
+			$("#Logo_index").addClass('hide');
+			$("#Logo_index_jpg").removeClass('hide');
+//		} else {
+//			console.log('svg ok');
+		}
+
+		break;
+	case 'Presentation':
+		$("#video-player").get(0).play();
+		$("#video-player").bind('ended', function () { //Al acabar el video
+			$(".jcarousel")
+				.removeClass("jcarousel-small").addClass("jcarousel-big")
+				.jcarousel('scroll', '+=1'); //Usage
+				//Sino també es pot canviar de pàgina amb això:
+//				$('.jcarousel').jcarousel('scroll', 0);
+		});
+		break;
+//	case 'Objectives':
+//		break;
+	case 'Services':
+		$("#video-services").get(0).play();
+		$("#video-services").bind('ended', function () { //Al acabar el video
+			$("#video-services").fadeOut();
+		});
+		break;
+//	case 'Test':
+//		break;
+	case 'Contact':
+		$(".checkLegal").click(function () {
+			$("input[type='submit']").attr("disabled", !$("input[type='checkbox']").is(":checked"));
+		});
+		break;
+//	case 'Legal':
+//			break;
 	}
+
 //	loadImages();
 
 /*	Code from bookandlook

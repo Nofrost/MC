@@ -14,17 +14,45 @@ html, body {
 .hidden{
 	visibility: hidden;
 }
+.unselectable {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+}
 #content_main_services,
 #content_main_presentation,
 #content_main_objectives,
 #content_main_contact,
-#content_main_contact,
-#content_main_test,
+/*#content_main_test,*/
 #content_main_legal{
 	height:577px;
-	width: 1423px;
 	margin:0 auto;
 }
+@media all and (min-width: 1423px) {
+	#content_main_services,
+	#content_main_presentation,
+	#content_main_objectives,
+	#content_main_contact,
+	/*#content_main_test,*/
+	#content_main_legal{
+		width: 1423px;
+	}
+}
+@media all and (max-width: 1423px) {
+	/*#content_main_services,*/
+	#content_main_presentation,
+	#content_main_objectives,
+	#content_main_contact,
+	/*#content_main_test,*/
+	#content_main_legal{
+		width: 1280px;
+	}
+	#content_main_services{
+		width: 1423px;
+	}
+}
+
 #video-viewport {
 	overflow: hidden;
 	z-index:-1000; /* for accessing the video by click */
@@ -74,12 +102,17 @@ nav a:last-child{
 /*
  * Index
  */
-#Logo_index{
-	background-image: url(../Images/Logo_MC%20index.svg);
+.logo_index{
 	background-repeat: no-repeat;
 	margin: 238px auto 91px auto;
 	height: 193px;
 	width: 341px;
+}
+.logo_index#Logo_index {
+	background-image: url(../Images/Logo_MC_index.svg);
+}
+.logo_index#Logo_index_jpg {
+	background-image: url(../Images/Logo_MC_index.jpg);
 }
 #Languages_index{
 	margin: 0px auto;
@@ -136,7 +169,7 @@ nav a:last-child{
 	height:577px;
 	width:1024px;
 	float: left;
-	background-image: url("../Images/cara_retocada.png");
+	background-image: url("../Images/cara_retocada.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -182,7 +215,7 @@ nav a:last-child{
  * Main objectives
  */
 #content_main_objectives{
-	background-image: url("../Images/VioliMC.png");
+	background-image: url("../Images/VioliMC.jpg");
 	background-repeat: no-repeat;
 }
 #description{
@@ -214,8 +247,23 @@ nav a:last-child{
 #content_main_test{
 	/*background-color: #B1C7DF;*/
 }
+#test_wrapper{
+	height:577px;
+	margin:0 auto;
+}
+@media all and (min-width: 1423px) {
+	#test_wrapper{
+		width: 1423px;
+	}
+}
+@media all and (max-width: 1423px) {
+	#test_wrapper{
+		width: 1280px;
+	}
+}
+
+
 #white_line{
-	position: absolute;
 	height: 5px;
 	width: 100%;
 	background-color: #ffffff;
@@ -233,57 +281,25 @@ nav a:last-child{
 #title_test > div{
 	padding-top: 23px;
 }
+
 #question_test{
 	width: 1024px;
-	margin: 0 auto;
+	margin: 63px auto 0 auto;
 	color: #396e8e;
-}
-#question_test > span{
-	position: absolute;
-	top: 350px;
-	z-index: 0;
-}
-#question_test > span > #ord_list{
-	font-weight: normal;
-	margin-left:138px;
-}
-#question_test > span > div{
-	font-weight: bold;
 	font-size: 18px;
 }
-#question_test > span > div > ol{
-	list-style: none;
-	line-height: 30px;
-	font-size: 18px;
-	margin: 0px;
-	padding: 0px;
-}
-#question_test > span > div:last-child{
-	font-weight: normal;
-	font-size: 18px;
-}
-#question_test > span > div:last-child > a{
-	color: #396e8e;
-	font-weight: bold;
-	text-decoration: none;
-}
-#question_test > span > div:last-child > a:hover{
-	color: #ffffff;
-	font-weight: bold;
-}
-
-#radio_list{
-	margin-top: 118px;
-	margin-left: 93px;
-	position: absolute;
+#question_test > #radio_list {
+	/*margin-top: 114px;
+	position: absolute;*/
+	margin: 5px 0 0 93px;
 	z-index: 1;
+	float: left;
 }
-
 /*
 	Hide radio button (the round disc)
 	we will use just the label to create pushbutton effect
 */
-input[type=radio] {
+#question_test > #radio_list > input[type=checkbox] {
 	display:none;
 	margin:10px;
 }
@@ -292,7 +308,7 @@ input[type=radio] {
 	Change the look'n'feel of labels (which are adjacent to radiobuttons).
 	Add some margin, padding to label
 */
-input[type=radio] + label {
+#question_test > #radio_list > input[type=checkbox] + label {
 	display:list-item;
 	border-radius: 50%;
 	height: 14px;
@@ -309,18 +325,61 @@ input[type=radio] + label {
  Change background color for label next to checked radio button
  to make it look like highlighted button
 */
-input[type=radio]:checked + label {
-	background-image:url("../Images/rodona.png");
+#question_test > #radio_list > input[type=checkbox]:checked + label {
+	background-image: url("../Images/rodona.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+#question_test > #question_text {
+	float: left;
+	z-index: 0;
+	/*position: relative;
+	margin-top: 70px;
+	left: -109px;*/
+}
+#question_test > .intro {
+	font-weight: bold;
+}
+#question_test > #question_text > span > #ord_list{
+	font-weight: normal;
+	margin-left: 15px;
+}
+#question_test > #question_text > span > div > ol{
+	list-style: none;
+	line-height: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+#question_test > #question_text > span > div:last-child{
+	font-weight: normal;
+	position: relative;
+	left: -112px;
+}
+#question_test > #question_text > span > div:last-child > input[type=submit]{
+	color: #396e8e;
+	font-weight: bold;
+	text-decoration: none;
+	background: transparent;
+	border: none;
+	width: auto;
+	font-weight: bold;
+}
+#question_test > #question_text > span > div:last-child > input[type=submit]:hover{
+	color: #ffffff;
+	font-weight: bold;
+}
+#question_test #button_click:focus{
+	outline:none;
+}
+
 
 
 /*
  * Main contact
  */
 #content_main_contact{
-	background-image: url("../Images/contactos.png");
+	background-image: url("../Images/contactos.jpg");
 	background-repeat: no-repeat;
 }
 .directions{
@@ -329,9 +388,6 @@ input[type=radio]:checked + label {
 	color: #ffffff;
 	float:right;
 	margin-right:60px;
-}
-.directions div{
-	width:285px;
 }
 .directions form{
 	width: 285px;
@@ -342,7 +398,7 @@ input[type=radio]:checked + label {
 	padding-bottom: 35px;
 	background-color: rgba(57,110,142,0.2);
 }
-.directions div > div{
+.directions .direction{
 	width: 285px;
 	padding: 35px 0 35px 47px;
 	background-color: rgba(57,110,142,0.2);
@@ -358,24 +414,24 @@ input[type=radio]:checked + label {
 .directions p > a:hover{
 	color:#396e8e;
 }
-input{
+.directions input{
 	width: 225px;
 }
-.name, .lastname, .phone{
+.directions .name,.directions  .lastname,.directions  .phone{
 	padding-left: 9px;
 	border: 1px #ffffff solid;
 	background-color: transparent;
 }
-.name:focus, .lastname:focus, .phone:focus{
+.directions .name:focus,.directions  .lastname:focus,.directions  .phone:focus{
 	border: 1px #396e8e solid;
 }
-.name{
+.directions .name{
 	margin-top: 17px;
 }
-.lastname, .phone{
+.directions .lastname,.directions  .phone{
 	margin-top: 8px;
 }
-.submit{
+.directions .submit{
 	margin-top:14px;
 	width: 64px;
 	float: right;
@@ -383,46 +439,58 @@ input{
 	background-color: #396e8e;
 	border: none;
 }
-input[disabled]{
+.directions input[disabled]{
 	background-color: rgba(57,110,142, 0.4);;
 }
-.submit:active{
+.directions input::-webkit-input-placeholder {
+	color: white;
+}
+.directions input:-moz-placeholder { /* Firefox 18- */
+	color: white;
+}
+.directions input::-moz-placeholder {  /* Firefox 19+ */
+	color: white;
+}
+.directions input:-ms-input-placeholder {
+   color: white;
+}
+.directions .submit:active{
 	background-color: rgba(184,195,199, 0.6);
 }
-.submit:focus{
+.directions .submit:focus{
 	outline:none;
 }
-input[type=checkbox]{
+.directions input[type=checkbox]{
 	width: 13px;
 	margin-top: 12px;
 }
-#result_test{
-	position: absolute;
-	right: 392px;
-	top: 200px;
-	width: 292px;
+.directions .result_test{
+	position: relative;
+	right: 352px;
+	top: -533px;
+	width: 285px;
 	background-color: rgba(255,255,255,0.8);
-	padding: 25px 0px 25px 25px;
+	padding: 25px;
 	color: #396e8e;
 	border-radius: 32px 32px 32px 32px;
+	font-size: 14px;
 }
- div.tr.en > div#result_test{
-	width: 278px;
+.directions .result_test_content{
+	/*width: 290px;*/
 }
- div.tr.it > div#result_test{
-	width: 298px;
-}
-#result_test.active{
-	display: inherit;
-}
-div.arrow-right {
+.directions div.arrow-right {
 	width: 0;
 	height: 0;
 	border-style: solid;
 	border-width: 11px 0 11px 13px;
-	border-color: transparent transparent transparent #ffffff;
-
+	border-color: transparent transparent transparent rgba(255,255,255,0.8);
+	float: right;
+	position: relative;
+	left: 41px;
+	top: 30px;
 }
+
+
 /*
  * Footer
  */
@@ -499,7 +567,13 @@ Position must be relative!
 	position: relative;
 	overflow: hidden;
 }
-
+.jcarousel.jcarousel-small {
+	width: 1024px;
+	margin: 0 auto;
+}
+.jcarousel.jcarousel-big {
+	width: 1423px;
+}
 /*
 This is the container of the carousel items.
 You must ensure that the position is relative or absolute and
@@ -525,7 +599,7 @@ have a fixed width and height (but it's not required).
 	float: left;
 }
 .jcarousel > ul > li#page2{
-	background-image: url("../Images/2cares.png");
+	background-image: url("../Images/2cares.jpg");
 	background-repeat: no-repeat;
 	height: 577px;
 	width: 1423px;

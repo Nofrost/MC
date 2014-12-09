@@ -8,8 +8,7 @@
 		<?php include "head.php"; ?>
 	</head>
 
-	<body>
-		<!--<div id="guia_layout"></div>-->
+	<body data-page="<?php echo $page; ?>">
 
 		<?php include "header.php"; ?>
 
