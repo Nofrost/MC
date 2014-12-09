@@ -6,4 +6,6 @@ Queda per fer:
 	- A la pàgina de contacte fer apareixa i desapareixa el quadret (on et diu k si has respost x preguntes del test fes omple el formulari)i fer el php en el 		  submit perque s'envii al mail.(JS+PHP)
 	- I si tinguessim temps, fer que els menus es canviessin rollo carrussel però això ja seria la guinda(JS)
 	- Crear fletxa en css
+	- Treure el so del video quan està en Hide
+	- Potser un missatget que digui que t'has d'ahaver llegit la politica de privacitat abans d'enviar
 	i... a tomar por culo
