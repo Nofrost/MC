@@ -118,7 +118,7 @@
 			Telefono (+34) 971 107 108
 		</div>
 		<div id="result_test">
-			X respostes afirmatives<br><br>
+			X risposte affermative<br><br>
 			Se la risposta è sì superiore a 3 situazioni,<br> compilare il modulo ed i nostri specialisti<br> saranno presenti.
 		</div>
 	</div>

@@ -1,7 +1,8 @@
 <?php if(!isset($page)) { header( 'Location: home.php');die( 'Redirect a home'); }?>
 <div id="trans">
-			<video autoplay preload width="1026" height="auto" scale="tofit" id="video-player" control muted >
+			<video autoplay preload width="1024" height="auto" scale="tofit"control muted >
 					<source src="videos/MC_spot-3_v3.ogg" type="video/ogg" />
+					<source src="videos/MC_spot-3_v3.mp4" type="video/mp4" />
 			</video>
 </div>
 <div id="vertical_white_line"></div>

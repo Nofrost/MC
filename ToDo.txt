@@ -1,8 +1,9 @@
 Queda per fer:
 
-	A la pàgina de presentació que es redimensioni el quan el vídeo i després
-	A la pàgina de serveis que al acabar el video es posi la foto
-	A la pàgina de test que et conti el radio check marcats i que amb el botó de clicar et linki a l altre canto guardan les dades. S'ha de poder marcar i
-	desmarcar els radio checks.
-	A la pàgina de contacte fer apareixa i desapareixa el quadret i fer el php en el submit perque s'envii al mail.
+	- A la pàgina de presentació que es redimensioni en el primer video, després entra foto apaisada.(JS)
+	- A la pàgina de serveis que al acabar el video es posi la foto. (suposo k es un difuminat o transició fàcil. He fet k la foto estigui al background i lo seu 		seria fer desapareixa el video quan acaba. Trust me que ho he intentat)(JS)
+	- A la pàgina de test que et conti el radio checks marcats i que amb el botó de clicar "finalitzar el test" et linki a la pàgina de contacte guardan les 		  dades del test. S'ha de poder marcar i desmarcar els radio checks.(PHP?)
+	- A la pàgina de contacte fer apareixa i desapareixa el quadret (on et diu k si has respost x preguntes del test fes omple el formulari)i fer el php en el 		  submit perque s'envii al mail.(JS+PHP)
+	- I si tinguessim temps, fer que els menus es canviessin rollo carrussel però això ja seria la guinda(JS)
+	- Crear fletxa en css
 	i... a tomar por culo
