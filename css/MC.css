@@ -177,6 +177,7 @@ nav a:last-child{
 	height: 332px;
 	width: 394px;
 	background-color: rgba(57,110,142,0.3);
+	/*background-color: rgba(57,110,142,0.6); hauria de poder llegir-se millor*/
 	float: left;
 	color: #ffffff;
 }
@@ -248,7 +249,7 @@ nav a:last-child{
 	/*background-color: #B1C7DF;*/
 }
 #test_wrapper{
-	height:577px;
+	height:390px;
 	margin:0 auto;
 }
 @media all and (min-width: 1423px) {
@@ -452,7 +453,7 @@ nav a:last-child{
 	color: white;
 }
 .directions input:-ms-input-placeholder {
-   color: white;
+	color: white;
 }
 .directions .submit:active{
 	background-color: rgba(184,195,199, 0.6);

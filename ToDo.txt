@@ -12,6 +12,8 @@ Formulari:
 Altres:
 	- I si tinguessim temps, fer que els menus es canviessin rollo carrussel però això ja seria la guinda(JS)
 	- SEO
-
+	- Pàgina de serveis canviar tamany
+	- Obligatorio numero de telefon
+	- Logo
 
 	i... a tomar por culo

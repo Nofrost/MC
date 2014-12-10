@@ -5,7 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="description" content="MC CONSULTA AUDITIVA">
-<meta name="keywords" content="MC CONSULTA AUDITIVA">
+<meta name="description" lang="cat" content="" />
+<meta name="description" lang="es" content="" />
+<meta name="description" lang="en" content="" />
+<meta name="description" lang="it" content="" />
+
+<meta name="keywords" content="MC CONSULTA AUDITIVA, aud&iacute;fonos,aud&iacute;fonos digitales, aud">
 <meta name="author" content="MC CONSULTA AUDITIVA">
 
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
