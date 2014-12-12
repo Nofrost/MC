@@ -1,19 +1,5 @@
 Queda per fer:
 
-Videos:
-	- Imatge loading (tant a la presentació com a serveis)
-
-Imatges:
-	- Intentar reduir el tamany de les imatges més pesades (guardar para web a photoshop)
-
-Formulari:
-	- Potser un missatget que digui que t'has d'ahaver llegit la politica de privacitat abans d'enviar
-
 Altres:
 	- I si tinguessim temps, fer que els menus es canviessin rollo carrussel però això ja seria la guinda(JS)
-	- SEO
-	- Pàgina de serveis canviar tamany
-	- Obligatorio numero de telefon
-	- Logo
-
-	i... a tomar por culo
+	- Logo...
