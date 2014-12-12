@@ -2,9 +2,11 @@
 <div class="directions">
 	<div class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
 		<form action="contacto.php" method="post">
-			<?php foreach($_GET['r'] as $key => $r): ?>
+<?php		if(isset($_GET['r'])):
+				foreach($_GET['r'] as $key => $r): ?>
 			<input type="hidden" name="answers[<?php echo $key; ?>]" value="<?php echo $r; ?>" />
-			<?php endforeach; ?>
+<?php			endforeach;
+			endif; ?>
 
 			<span>
 				Ompli el formulari i nosaltres<br>
@@ -30,7 +32,7 @@
 			07002 Palma de Mallorca<br>
 			Tel&egrave;fon 971 107 108
 		</div>
-		<?php if(count($_GET['r'])): ?>
+		<?php if(isset($_GET['r']) && count($_GET['r'])): ?>
 		<div class="result_test">
 			<div class="arrow-right"></div>
 			<div class="result_test_content">
@@ -70,7 +72,7 @@
 			07002 Palma de Mallorca<br>
 			Tel&eacute;fono 971 107 108
 		</div>
-		<?php if(count($_GET['r'])): ?>
+		<?php if(isset($_GET['r']) && count($_GET['r'])): ?>
 		<div class="result_test">
 			<div class="arrow-right"></div>
 			<div class="result_test_content">
@@ -109,7 +111,7 @@
 			07002 Palma de Mallorca<br>
 			Phone Number (+34) 971 107 108
 		</div>
-		<?php if(count($_GET['r'])): ?>
+		<?php if(isset($_GET['r']) && count($_GET['r'])): ?>
 		<div class="result_test">
 			<div class="arrow-right"></div>
 			<div class="result_test_content">
@@ -148,7 +150,7 @@
 			07002 Palma de Mallorca<br>
 			Telefono (+34) 971 107 108
 		</div>
-		<?php if(count($_GET['r'])): ?>
+		<?php if(isset($_GET['r']) && count($_GET['r'])): ?>
 		<div class="result_test">
 			<div class="arrow-right"></div>
 			<div class="result_test_content">
