@@ -123,11 +123,8 @@ $(document).ready(function () {
 		break;
 //	case 'Test':
 //		break;
-	case 'Contact':
-		$(".checkLegal").click(function () {
-			$("input[type='submit']").attr("disabled", !$("input[type='checkbox']").is(":checked"));
-		});
-		break;
+//	case 'Contact':
+//		break;
 //	case 'Legal':
 //			break;
 	}

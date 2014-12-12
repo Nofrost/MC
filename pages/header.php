@@ -2,7 +2,8 @@
 
 <header>
 	<div id="header_wrapper">
-		<a id="logo" href="home.php?page=Presentation&lang=<?php echo $lang;?>"></a>
+		<?php /*<a id="logo" href="home.php?page=Presentation&lang=<?php echo $lang;?>"></a>*/?>
+		<a id="logo_jpg" href="home.php?page=Presentation&lang=<?php echo $lang;?>"></a>
 		<nav>
 			<a id="objectives" href="home.php?page=Objectives&lang=<?php echo $lang;?>"<?php if($page == 'Objectives') echo 'class="active"'; ?>>
 				<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Qui som</span>

@@ -10,12 +10,12 @@
 				Ompli el formulari i nosaltres<br>
 				contactarem amb vostè
 			</span>
-			<input class="name" type="text" name="name" placeholder="Nom"><br>
-			<input class="lastname"type="text" name="lastname" placeholder="Cognoms"><br>
-			<input class="phone"type="text" name="phone" placeholder="Tel&egrave;fon"><br>
-			<input class="submit" type="submit" value="Enviar" disabled><br>
+			<input class="name" type="text" required name="name" placeholder="Nom"><br>
+			<input class="lastname"type="text" required name="lastname" placeholder="Cognoms"><br>
+			<input class="phone"type="text" required name="phone" placeholder="Tel&egrave;fon"><br>
+			<input class="submit" type="submit" value="Enviar" ><br>
 			<p>
-				<input type="checkbox" class="checkLegal" name="Legal" />
+				<input type="checkbox" class="checkLegal" required name="Legal" />
 				He llegit i accepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>" target="_blank">declaraci&oacute; de privacitat</a> de MC Consulta Auditiva
 			</p>
 		</form>
@@ -51,12 +51,12 @@
 				Rellene el formulario y nosotros<br>
 				contactaremos con usted
 			</span>
-			<input class="name" type="text" name="name" placeholder="Nombre"><br>
-			<input class="lastname"type="text" name="lastname" placeholder="Apellidos"><br>
-			<input class="phone"type="text" name="phone" placeholder="Tel&eacute;fono"><br>
-			<input class="submit" type="submit" value="Enviar" disabled><br>
+			<input class="name" type="text" required name="name" placeholder="Nombre"><br>
+			<input class="lastname"type="text" required name="lastname" placeholder="Apellidos"><br>
+			<input class="phone"type="text" required name="phone" placeholder="Tel&eacute;fono"><br>
+			<input class="submit" type="submit" value="Enviar" ><br>
 			<p>
-				<input type="checkbox" class="checkLegal" name="Legal" />
+				<input type="checkbox" class="checkLegal" required name="Legal" />
 				He le&iacute;do y acepto la <a href="home.php?page=Legal&lang=<?php echo $lang;?>" target="_blank">declaraci&oacute;n de privacidad</a> de MC Consulta Auditiva
 			</p>
 		</form>
@@ -90,12 +90,12 @@
 				Fill out the form and<br>
 				we&#39;ll contact you
 			</span>
-			<input class="name" type="text" name="name" placeholder="Name"><br>
-			<input class="lastname"type="text" name="lastname" placeholder="Last name"><br>
-			<input class="phone"type="text" name="phone" placeholder="Phone number"><br>
-			<input class="submit" type="submit" value="Send" disabled><br>
+			<input class="name" type="text" required name="name" placeholder="Name"><br>
+			<input class="lastname"type="text" required name="lastname" placeholder="Last name"><br>
+			<input class="phone"type="text" required name="phone" placeholder="Phone number"><br>
+			<input class="submit" type="submit" value="Send" ><br>
 			<p>
-				<input type="checkbox" class="checkLegal" name="Legal" />
+				<input type="checkbox" class="checkLegal" required name="Legal" />
 				I&#39;ve read and accept <a href="home.php?page=Legal&lang=<?php echo $lang;?>" target="_blank">the privacy statement</a> of MC Consulta Auditiva
 			</p>
 		</form>
@@ -129,12 +129,12 @@
 				Compila il formulario e<br>
 				ti conttataremo
 			</span>
-			<input class="name" type="text" name="name" placeholder="Nome"><br>
-			<input class="lastname"type="text" name="lastname" placeholder="Cognome"><br>
-			<input class="phone"type="text" name="phone" placeholder="Telefono"><br>
-			<input class="submit" type="submit" value="Inviare" disabled><br>
+			<input class="name" type="text" required name="name" placeholder="Nome"><br>
+			<input class="lastname"type="text" required name="lastname" placeholder="Cognome"><br>
+			<input class="phone"type="text" required name="phone" placeholder="Telefono"><br>
+			<input class="submit" type="submit" value="Inviare" ><br>
 			<p>
-				<input type="checkbox" class="checkLegal" name="Legal" />
+				<input type="checkbox" class="checkLegal" required name="Legal" />
 				Ho letto e acetto <a href="home.php?page=Legal&lang=<?php echo $lang;?>" target="_blank">la dichiarazione di privacita&#39;</a>di MC Consulta Auditiva
 			</p>
 		</form>

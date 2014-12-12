@@ -65,14 +65,19 @@ html, body {
 	height: 166px;
 	margin: 0 auto;
 }
-#logo{
-	background-image: url(../Images/logo_MC.svg);
+#logo, #logo_jpg{
 	background-repeat: no-repeat;
 	height: 115px;
 	width: 198px;
 	float:left;
 	margin-top: 36px;
 	cursor:pointer;
+}
+#logo{
+	background-image: url(../Images/logo_MC.svg);
+}
+#logo_jpg{
+	background-image: url(../Images/logo_MC.jpg);
 }
 nav{
 	float:right;
@@ -102,16 +107,16 @@ nav a:last-child{
 /*
  * Index
  */
-.logo_index{
+#Logo_index, #Logo_index_jpg{
 	background-repeat: no-repeat;
 	margin: 238px auto 91px auto;
 	height: 193px;
 	width: 341px;
 }
-.logo_index#Logo_index {
+#Logo_index {
 	background-image: url(../Images/Logo_MC_index.svg);
 }
-.logo_index#Logo_index_jpg {
+#Logo_index_jpg {
 	background-image: url(../Images/Logo_MC_index.jpg);
 }
 #Languages_index{
