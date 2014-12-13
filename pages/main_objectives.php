@@ -4,8 +4,8 @@
 	<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
 		<p>
 			<b>QUI SOM</b><br><br>
-			Som un equip d&#39;especialistes titulats en audiol&ograve;gia amb experi&egrave;ncia en el sector des de fa m&eacute;s de 30 anys.<br><br>
-			Compromesos amb la nostra societat i la salut de la mateixa, junts treballem per facilitar i millorar una q&uuml;esti&oacute; cr&iacute;tica i alhora fonamental en el dia a dia dels nostres pacients: l&#39;audici&oacute;.
+			Som un equip d&#39;especialistes titulats en audiol&ograve;gia amb m&eacute;s de 30 experi&egrave;ncia en el sector.<br><br>
+			Compromesos amb la nostra societat i la seva salut, junts treballem per facilitar i millorar una q&uuml;esti&oacute; cr&iacute;tica i alhora fonamental en el dia a dia dels nostres pacients: l&#39;audici&oacute;.
 		</p>
 
 		<p>
@@ -19,8 +19,8 @@
 	<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">
 		<p>
 			<b>QUI&Eacute;NES SOMOS</b><br><br>
-			Somos un equipo de especialistas titulados en audiolog&iacute;a con experiencia en el sector de m&aacute;s de 30 a&ntilde;os.<br><br>
-			Comprometidos con nuestra sociedad y la salud de la misma, juntos trabajamos para facilitar y mejorar una cuesti&oacute;n cr&iacute;tica y a la vez fundamental en el d&iacute;a a d&iacute;a de nuestros pacientes: la audici&oacute;n.
+			Somos un equipo de especialistas titulados en audiolog&iacute;a con m&aacute;s de 30 a&ntilde;os de experiencia en el sector.<br><br>
+			Comprometidos con nuestra sociedad y su salud, juntos trabajamos para facilitar y mejorar una cuesti&oacute;n cr&iacute;tica y a la vez fundamental en el d&iacute;a a d&iacute;a de nuestros pacientes: la audici&oacute;n.
 		</p>
 		<p>
 			<b>PRINCIPIOS Y VALORES</b><br><br>
