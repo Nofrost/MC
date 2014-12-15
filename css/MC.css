@@ -181,14 +181,12 @@ nav a:last-child{
 #all_services{
 	height: 332px;
 	width: 394px;
-	background-color: rgba(57,110,142,0.3);
 	/*background-color: rgba(57,110,142,0.6); hauria de poder llegir-se millor*/
 	float: left;
-	color: #ffffff;
+	color: #396e8e;
 }
 #all_services ul{
 	list-style: none;
-	color: #ffffff;
 	line-height: 34px;
 	font-size: 18px;
 	padding-top: 18px;
@@ -292,7 +290,7 @@ nav a:last-child{
 	width: 1024px;
 	margin: 63px auto 0 auto;
 	color: #396e8e;
-	font-size: 18px;
+	font-size: 16px;
 }
 #question_test > #radio_list {
 	/*margin-top: 114px;
@@ -402,12 +400,12 @@ nav a:last-child{
 	margin-bottom: 24px;
 	padding-left: 47px;
 	padding-bottom: 35px;
-	background-color: rgba(57,110,142,0.2);
+	background-color: rgba(57,110,142,0.3);
 }
 .directions .direction{
 	width: 285px;
 	padding: 35px 0 35px 47px;
-	background-color: rgba(57,110,142,0.2);
+	background-color: rgba(57,110,142,0.3);
 }
 .directions p{
 	margin-top: 27px;
@@ -512,6 +510,7 @@ footer > a{
 }
 #languages > a:hover, #languages > a.active, #legal.active{
 	color: #396e8e;
+	font-weight: normal;
 }
 #legal{
 	float: right;

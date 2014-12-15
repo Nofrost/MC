@@ -4,7 +4,7 @@
 	<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
 		<p>
 			<b>QUI SOM</b><br><br>
-			Som un equip d&#39;especialistes titulats en audiol&ograve;gia amb m&eacute;s de 30 experi&egrave;ncia en el sector.<br><br>
+			Som un equip d&#39;especialistes titulats en audiol&ograve;gia amb m&eacute;s de 30 anys experi&egrave;ncia en el sector.<br><br>
 			Compromesos amb la nostra societat i la seva salut, junts treballem per facilitar i millorar una q&uuml;esti&oacute; cr&iacute;tica i alhora fonamental en el dia a dia dels nostres pacients: l&#39;audici&oacute;.
 		</p>
 

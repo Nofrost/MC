@@ -55,7 +55,7 @@
 						<li>Li resulta dificult&oacute;s parlar per tel&egrave;fon?</li>
 						<li>Posa el volum de la TV/R&agrave;dio m&eacute;s alt que la resta de la seva fam&iacute;lia?</li>
 						<li>Pateix de brunzits a l'o&iuml;da (ac&uacute;fens)?</li>
-						<li>Se sent a&iuml;llat/ada en les reunions familiars o amb amics perqu&egrave; no ent&eacute;n b&eacute; el que diuen?</li>
+						<li>Se sent a&iuml;llat/da en les reunions familiars o amb amics perqu&egrave; no ent&eacute;n b&eacute; el que diuen?</li>
 						<li>Les persones que conviuen amb vost&egrave; li comenten que no sent alguns sons?</li>
 					</ol>
 				</div><br>
