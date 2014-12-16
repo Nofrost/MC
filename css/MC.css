@@ -169,6 +169,9 @@ nav a:last-child{
 /*
  * Main services
  */
+#content_main_services{
+	background-color: #fff;
+}
 #trans {
 	position:relative;
 	height:577px;
@@ -180,10 +183,11 @@ nav a:last-child{
 
 #all_services{
 	height: 332px;
-	width: 394px;
-	/*background-color: rgba(57,110,142,0.6); hauria de poder llegir-se millor*/
+	width: 388px;
+	background-color: rgba(184,195,199, 0.2);
 	float: left;
 	color: #396e8e;
+	margin-left: 5px;
 }
 #all_services ul{
 	list-style: none;
@@ -192,29 +196,31 @@ nav a:last-child{
 	padding-top: 18px;
 }
 #services_title{
-	width: 394px;
+	width: 388px;
 	height: 240px;
 	background-color: rgba(57,110,142,1);
 	float: left;
 	color: #B8CAD4;
 	font-size: 30px;
+	margin-left: 5px;
+	margin-bottom:5px;
 }
 #services_title > div {
 	margin-top: 128px;
 	margin-left: 41px;
 }
 
-#vertical_white_line{
+/*.vertical_white_line{
 	height: 577px;
 	width: 5px;
 	background-color: #ffffff;
 	float: left;
-}
-#content_main_services > #white_line{
-	width: 394px;
+}*/
+/*#content_main_services > #white_line{
+	width: 388px;
 	float:left;
 	position:initial;
-}
+}*/
 /*
  * Main objectives
  */
@@ -223,7 +229,7 @@ nav a:last-child{
 	background-repeat: no-repeat;
 }
 #description{
-	max-width: 390px;
+	max-width: 388px;
 	max-height: 577px;
 	margin-right: 167px;
 	float: right;

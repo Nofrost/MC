@@ -5,7 +5,7 @@
 			<source src="videos/MC_spot-3_v3.mp4" type="video/mp4" />
 	</video>
 </div>
-<div id="vertical_white_line"></div>
+
 <div id="services_title">
 	<div>
 		<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Qu&egrave; inclouen<br>els nostres serveis?</span>
@@ -14,7 +14,6 @@
 		<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Che cosa è incluso<br>nei nostri servizi?</span>
 	</div>
 </div>
-<div id=white_line></div>
 <div id="all_services">
 	<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
 		<ul>
