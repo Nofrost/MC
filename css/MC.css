@@ -1,9 +1,17 @@
 /*
  * General properties
  */
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri.ttf');
+}
+@font-face {
+	font-family: 'Calibri_Bold';
+	src: url('../fonts/Calibri_Bold.ttf');
+}
 html, body {
 	background-color: #ffffff;
-	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-family: 'Calibri';
 	margin: 0px;
 	height: 737px;
 	z-index: 2000;
@@ -98,7 +106,7 @@ nav > a:hover,
 nav > a:active,
 a.active
 {
-	font-weight: bold;
+	font-family:  'Calibri_Bold';
 }
 nav a:last-child{
 	border-right: none;
@@ -136,7 +144,7 @@ nav a:last-child{
 	color: #396e8e;
 }
 #Languages_index > a:hover{
-	font-weight: bold;
+	font-family:  'Calibri_Bold';
 }
 #Languages_index > a:last-child{
 	border-right: none;
@@ -192,7 +200,6 @@ nav a:last-child{
 #all_services ul{
 	list-style: none;
 	line-height: 34px;
-	font-size: 18px;
 	padding-top: 18px;
 }
 #services_title{
@@ -241,6 +248,7 @@ nav a:last-child{
 	font-size:14px;
 	margin: 0px;
 	padding: 33px;
+	width: 324px;
 }
 #description > span >p:first-child{
 	margin-bottom:25px;
@@ -349,7 +357,7 @@ nav a:last-child{
 	left: -109px;*/
 }
 #question_test > .intro {
-	font-weight: bold;
+	font-family:  'Calibri_Bold';
 }
 #question_test > #question_text > span > #ord_list{
 	font-weight: normal;
@@ -368,16 +376,15 @@ nav a:last-child{
 }
 #question_test > #question_text > span > div:last-child > input[type=submit]{
 	color: #396e8e;
-	font-weight: bold;
+	font-family:  'Calibri_Bold';
 	text-decoration: none;
 	background: transparent;
 	border: none;
 	width: auto;
-	font-weight: bold;
 }
 #question_test > #question_text > span > div:last-child > input[type=submit]:hover{
 	color: #ffffff;
-	font-weight: bold;
+	font-family:  'Calibri_Bold';
 }
 #question_test #button_click:focus{
 	outline:none;
@@ -516,7 +523,7 @@ footer > a{
 }
 #languages > a:hover, #languages > a.active, #legal.active{
 	color: #396e8e;
-	font-weight: normal;
+	font-family: 'Calibri';
 }
 #legal{
 	float: right;

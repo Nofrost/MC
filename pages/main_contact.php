@@ -23,11 +23,11 @@
 		</form>
 
 		<div class="direction">
-			<b>M.C. Consulta Auditiva BARCELONA</b><br>
+			M.C. Consulta Auditiva BARCELONA<br>
 			C/ Mandri, nº49<br>
 			08022 Barcelona<br>
 			Tel&egrave;fon 932 118 046<br><br>
-			<b>M.C. Consulta Auditiva MALLORCA</b><br>
+			M.C. Consulta Auditiva MALLORCA<br>
 			C/ Pla&ccedil;a Espanya, nº7<br>
 			07002 Palma de Mallorca<br>
 			Tel&egrave;fon 971 107 108
@@ -63,11 +63,11 @@
 			</p>
 		</form>
 		<div class="direction">
-			<b>M.C. Consulta Auditiva BARCELONA</b><br>
+			M.C. Consulta Auditiva BARCELONA<br>
 			CL/ Mandri, nº49<br>
 			08022 Barcelona<br>
 			Tel&eacute;fono 932 118 046<br><br>
-			<b>M.C. Consulta Auditiva MALLORCA</b><br>
+			M.C. Consulta Auditiva MALLORCA<br>
 			CL/ Plaza Espa&ntilde;a, nº7<br>
 			07002 Palma de Mallorca<br>
 			Tel&eacute;fono 971 107 108
@@ -102,11 +102,11 @@
 			</p>
 		</form>
 		<div class="direction">
-			<b>M.C. Consulta Auditiva BARCELONA</b><br>
+			M.C. Consulta Auditiva BARCELONA<br>
 			Mandri, nº49<br>
 			08022 Barcelona<br>
 			Phone Number (+34) 932 118 046<br><br>
-			<b>M.C. Consulta Auditiva MALLORCA</b><br>
+			M.C. Consulta Auditiva MALLORCA<br>
 			Plaza Espa&ntilde;a, nº7<br>
 			07002 Palma de Mallorca<br>
 			Phone Number (+34) 971 107 108
@@ -141,11 +141,11 @@
 			</p>
 		</form>
 		<div class="direction">
-			<b>M.C. Consulta Auditiva BARCELONA</b><br>
+			M.C. Consulta Auditiva BARCELONA<br>
 			Mandri, nº49<br>
 			08022 Barcelona<br>
 			Telefono (+34) 932 118 046<br><br>
-			<b>M.C. Consulta Auditiva MALLORCA</b><br>
+			M.C. Consulta Auditiva MALLORCA<br>
 			Plaza Espa&ntilde;a, nº7<br>
 			07002 Palma de Mallorca<br>
 			Telefono (+34) 971 107 108
