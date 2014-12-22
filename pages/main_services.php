@@ -48,7 +48,7 @@
 	<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">
 		<ul>
 			<li>Esame audiologico gratuito</li>
-			<li>Nuovi apparechi digitali</li>
+			<li>Nuovi apparecchi digitali</li>
 			<li>Applicazioni con garanzia</li>
 			<li>Finanziamenti personalizzati</li>
 			<li>Assistenza a domicilio</li>

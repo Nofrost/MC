@@ -11,7 +11,7 @@
 		<a id="legal" href="home.php?page=Legal&lang=<?php echo $lang;?>"<?php if($page == 'Legal') echo 'class="active"'; ?>>
 			<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Av&iacute;s Legal</span>
 			<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Aviso Legal</span>
-			<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Legal warnning</span>
+			<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Legal warning</span>
 			<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Avviso Legale</span>
 		</a>
 	</div>
