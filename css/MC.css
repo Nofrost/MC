@@ -3,11 +3,19 @@
  */
 @font-face {
 	font-family: 'Calibri';
-	src: url('../fonts/Calibri.ttf');
+	src: url('../fonts/Calibri.eot');
+	src: url('../fonts/Calibri.woff') format('woff'),
+	url('../fonts/Calibri.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'Calibri_Bold';
-	src: url('../fonts/Calibri_Bold.ttf');
+	src: url('../fonts/Calibri_Bold.eot');
+	src: url('../fonts/Calibri_Bold.woff') format('woff'),
+	url('../fonts/Calibri_Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 html, body {
 	background-color: #ffffff;
@@ -106,7 +114,7 @@ nav > a:hover,
 nav > a:active,
 a.active
 {
-	font-family:  'Calibri_Bold';
+	font-family:'Calibri_Bold';
 }
 nav a:last-child{
 	border-right: none;
@@ -144,7 +152,7 @@ nav a:last-child{
 	color: #396e8e;
 }
 #Languages_index > a:hover{
-	font-family:  'Calibri_Bold';
+	font-family:'Calibri_Bold';
 }
 #Languages_index > a:last-child{
 	border-right: none;
@@ -357,7 +365,7 @@ nav a:last-child{
 	left: -109px;*/
 }
 #question_test > .intro {
-	font-family:  'Calibri_Bold';
+	font-family:'Calibri_Bold';
 }
 #question_test > #question_text > span > #ord_list{
 	font-weight: normal;
@@ -376,7 +384,7 @@ nav a:last-child{
 }
 #question_test > #question_text > span > div:last-child > input[type=submit]{
 	color: #396e8e;
-	font-family:  'Calibri_Bold';
+	font-family:'Calibri_Bold';
 	text-decoration: none;
 	background: transparent;
 	border: none;
@@ -384,7 +392,7 @@ nav a:last-child{
 }
 #question_test > #question_text > span > div:last-child > input[type=submit]:hover{
 	color: #ffffff;
-	font-family:  'Calibri_Bold';
+	font-family:'Calibri_Bold';
 }
 #question_test #button_click:focus{
 	outline:none;
