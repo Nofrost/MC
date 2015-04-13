@@ -1,11 +1,11 @@
 <?php if(!isset($page)) { header( 'Location: home.php');die( 'Redirect a home'); }?>
 <div id="title_test">
-	<div>
+	<h1>
 		<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Comprovi l&#39;estat de la seva audici&oacute;</span>
 		<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">Compruebe el estado de su audici&oacute;n</span>
 		<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">Verify the state of your audition</span>
 		<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Comprova la tua audizione</span>
-	</div>
+	</h1>
 </div>
 <div id="white_line"></div>
 <div id="test_wrapper">

@@ -216,13 +216,13 @@ nav a:last-child{
 	background-color: rgba(57,110,142,1);
 	float: left;
 	color: #B8CAD4;
-	font-size: 30px;
 	margin-left: 5px;
 	margin-bottom:5px;
 }
-#services_title > div {
-	margin-top: 128px;
-	margin-left: 41px;
+#services_title > h1 {
+	margin: 128px 0px 0px 41px;
+	font-size: 30px;
+    font-weight: normal;
 }
 
 /*.vertical_white_line{
@@ -249,7 +249,11 @@ nav a:last-child{
 	margin-right: 167px;
 	float: right;
 }
-#description > span >p{
+#description h1{
+    font-size: 14px;
+    margin: 0px;
+}
+#description > span >div{
 	color: #396e8e;
 	background-color: rgba(255,255,255,0.6);
 	line-height: 15pt;
@@ -258,7 +262,7 @@ nav a:last-child{
 	padding: 33px;
 	width: 324px;
 }
-#description > span >p:first-child{
+#description > span >div:first-child{
 	margin-bottom:25px;
 }
 
@@ -300,12 +304,12 @@ nav a:last-child{
 	height: 115px;
 	text-align: center;
 }
-#title_test > div > span{
-	color: #ffffff;
-	font-size: 52px;
-}
-#title_test > div{
+#title_test > h1{
 	padding-top: 23px;
+    color: #ffffff;
+	font-size: 52px;
+    margin: 0px;
+    font-weight: normal;
 }
 
 #question_test{

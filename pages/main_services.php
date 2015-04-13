@@ -7,12 +7,12 @@
 </div>
 
 <div id="services_title">
-	<div>
+	<h1>
 		<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">Qu&egrave; inclouen<br>els nostres serveis?</span>
 		<span class="tr es <?php if($lang != 'es') echo 'hide'; ?>">¿Qu&eacute; incluyen<br>nuestros servicios?</span>
 		<span class="tr en <?php if($lang != 'en') echo 'hide'; ?>">What is included<br>in our services?</span>
 		<span class="tr it <?php if($lang != 'it') echo 'hide'; ?>">Che cosa è incluso<br>nei nostri servizi?</span>
-	</div>
+	</h1>
 </div>
 <div id="all_services">
 	<span class="tr cat <?php if($lang != 'cat') echo 'hide'; ?>">
